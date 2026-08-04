@@ -106,6 +106,7 @@
   position: relative;
   z-index: 260;
   border-radius: 10px;
+  margin-right: 6px;
 }
 .nav-toggle span {
   position: absolute; left: 11px; right: 11px;
@@ -121,6 +122,23 @@ body.menu-open .nav-toggle span { background: #F6F9F7; }
 body.menu-open .nav-toggle span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
 body.menu-open .nav-toggle span:nth-child(2) { opacity: 0; }
 body.menu-open .nav-toggle span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+/* Mobile menu close button */
+.mobile-menu__close {
+  position: absolute;
+  top: 18px; right: var(--gutter);
+  width: 44px; height: 44px;
+  z-index: 270;
+  border-radius: 10px;
+}
+.mobile-menu__close span {
+  position: absolute; left: 11px; right: 11px;
+  height: 2px; border-radius: 2px;
+  background: #F6F9F7;
+  top: 21px;
+}
+.mobile-menu__close span:nth-child(1) { transform: rotate(45deg); }
+.mobile-menu__close span:nth-child(2) { transform: rotate(-45deg); }
 
 /* Mobile menu (§7.4) */
 .mobile-menu {

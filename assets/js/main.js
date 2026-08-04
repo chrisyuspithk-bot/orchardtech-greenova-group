@@ -23,6 +23,10 @@
       setMenu(!document.body.classList.contains("menu-open"));
     });
   }
+  var menuClose = document.querySelector(".mobile-menu__close");
+  if (menuClose) {
+    menuClose.addEventListener("click", function () { setMenu(false); });
+  }
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape" && document.body.classList.contains("menu-open")) setMenu(false);
   });
