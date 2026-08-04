@@ -1,6 +1,6 @@
 /* ==========================================================================
    OrchardTech Greenova — layout.css
-   Header / nav / language toggle / mobile menu / breadcrumbs / footer / back-to-top
+   Header / nav / language toggle / mobile menu / footer / back-to-top
    ========================================================================== */
 
 /* ---------- Header (§7.4) ---------- */
@@ -166,19 +166,6 @@ html[lang^="zh"] .mobile-menu a { font-family: var(--font-zh); }
 .mobile-menu .lang-toggle { border-color: rgba(255, 255, 255, .3); }
 .mobile-menu .lang-toggle button { color: rgba(246, 249, 247, .8); }
 .mobile-menu .lang-toggle button[aria-pressed="true"] { background: var(--accent-500); color: var(--green-950); }
-
-/* ---------- Breadcrumbs (§6.8) ---------- */
-.breadcrumbs {
-  font-size: var(--text-sm);
-  color: var(--ink-400);
-  margin-bottom: 26px;
-}
-.breadcrumbs ol { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
-.breadcrumbs li { display: flex; align-items: center; gap: 8px; }
-.breadcrumbs a { color: var(--ink-500); }
-.breadcrumbs a:hover { color: var(--green-700); text-decoration: underline; text-underline-offset: 4px; }
-.breadcrumbs .sep { color: var(--line-strong); }
-.breadcrumbs [aria-current="page"] { color: var(--ink-900); font-weight: 600; }
 
 /* ---------- Footer (§7.7) ---------- */
 .site-footer {
