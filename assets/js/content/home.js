@@ -4,7 +4,7 @@ OG.register("home", {
   "zh": {
     "hero.h1a": "科技賦能未來",
     "hero.h1b": "構建可持續增長",
-    "hero.h1.en": "Technology Empowers the Future",
+    "hero.h1.en": "Technology for the Future",
     "hero.lead": "OrchardTech Greenova Group Limited 是總部位於香港的實業科技平台，以「穩健現金流 + 高毛利科技」雙引擎驅動，旗下 Pro-IAQ 與 GP Investment 協同構建可持續價值生態，現已啟動上市計劃。",
     "hero.cta1": "探索我們的業務",
     "hero.cta2": "投資者關係",
@@ -73,7 +73,7 @@ OG.register("home", {
   "cn": {
     "hero.h1a": "科技赋能未来",
     "hero.h1b": "构建可持续增长",
-    "hero.h1.en": "Technology Empowers the Future",
+    "hero.h1.en": "Technology for the Future",
     "hero.lead": "OrchardTech Greenova Group Limited 是总部位于香港的实业科技平台，以「稳健现金流 + 高毛利科技」双引擎驱动，旗下 Pro-IAQ 与 GP Investment 协同构建可持续价值生态，现已启动上市计划。",
     "hero.cta1": "探索我们的业务",
     "hero.cta2": "投资者关系",
@@ -140,8 +140,8 @@ OG.register("home", {
     "cta.btn": "投资者关系"
   },
   "en": {
-    "hero.h1a": "Technology Empowers the Future",
-    "hero.h1b": "Building Sustainable Growth",
+    "hero.h1a": "Technology for the Future",
+    "hero.h1b": "Via Sustainable Growth",
     "hero.h1.en": "科技賦能未來",
     "hero.lead": "OrchardTech Greenova Group Limited is a Hong Kong-headquartered industrial technology platform. Driven by the dual engine of “stable cash flow + high-margin technology,” its subsidiaries Pro-IAQ and GP Investment build a sustainable value ecosystem. The Group has launched its IPO plan.",
     "hero.cta1": "Explore Our Business",
