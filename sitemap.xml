@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- 7 routes x 2 locales (client-side locale toggle; alternates declared per page) -->
+  <url>
+    <loc>https://www.orchardtechgroup.com/</loc>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.orchardtechgroup.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orchardtechgroup.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orchardtechgroup.com/"/>
+    <changefreq>weekly</changefreq><priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.orchardtechgroup.com/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.orchardtechgroup.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orchardtechgroup.com/about.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orchardtechgroup.com/about.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.orchardtechgroup.com/business.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.orchardtechgroup.com/business.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orchardtechgroup.com/business.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orchardtechgroup.com/business.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.orchardtechgroup.com/advantages.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.orchardtechgroup.com/advantages.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orchardtechgroup.com/advantages.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orchardtechgroup.com/advantages.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.orchardtechgroup.com/rd-partnerships.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.orchardtechgroup.com/rd-partnerships.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orchardtechgroup.com/rd-partnerships.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orchardtechgroup.com/rd-partnerships.html"/>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.orchardtechgroup.com/investor-relations.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.orchardtechgroup.com/investor-relations.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orchardtechgroup.com/investor-relations.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orchardtechgroup.com/investor-relations.html"/>
+    <changefreq>weekly</changefreq><priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.orchardtechgroup.com/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-HK" href="https://www.orchardtechgroup.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.orchardtechgroup.com/contact.html?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.orchardtechgroup.com/contact.html"/>
+    <changefreq>yearly</changefreq><priority>0.6</priority>
+  </url>
+</urlset>
