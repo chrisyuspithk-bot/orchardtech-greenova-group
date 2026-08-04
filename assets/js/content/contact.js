@@ -40,7 +40,7 @@ OG.register("contact", {
     "form.msg.ph": "請簡述您的需求…",
     "form.submit": "提交諮詢",
     "form.note": "提交即表示您同意我們通過所提供的聯絡方式回覆您的諮詢。",
-    "form.err.required": "此欄爲必填項",
+    "form.err.required": "此欄為必填項",
     "form.err.email": "請輸入有效的電郵地址",
     "form.err.phone": "請輸入有效的電話號碼",
     "form.success.title": "提交成功",
