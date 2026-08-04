@@ -479,9 +479,76 @@ html[lang^="zh"] .hero__trust .label { letter-spacing: .06em; }
       rgba(7, 41, 31, .97) 0%, rgba(12, 74, 60, .95) 55%, rgba(18, 89, 74, .92) 100%);
   }
   .hero__right-mobile {
-    padding: 40px var(--gutter) 48px;
+    padding: 48px var(--gutter) 56px;
   }
-  .hero__right-mobile .hero__chip { max-width: none; }
-  .hero__right-mobile .hero__trust { margin-top: 32px; }
-  .hero__right-mobile .trust-strip span { padding: 4px 14px; font-size: var(--text-xs); }
+  /* chip card */
+  .hero__right-mobile .hero__chip {
+    max-width: none;
+    display: block;
+    background: rgba(255, 255, 255, .06);
+    border: 1px solid rgba(255, 255, 255, .12);
+    border-radius: 16px;
+    padding: 24px 20px;
+    text-decoration: none;
+    animation: none;
+  }
+  .hero__right-mobile .hero__chip .kicker {
+    font-size: var(--text-xs);
+    margin-bottom: 10px;
+  }
+  .hero__right-mobile .hero__chip strong {
+    font-size: 1.05rem;
+    line-height: 1.5;
+    margin-bottom: 6px;
+  }
+  .hero__right-mobile .hero__chip p {
+    font-size: var(--text-sm);
+    margin-top: 6px;
+  }
+  .hero__right-mobile .hero__chip .go {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 14px;
+    padding: 8px 16px;
+    background: rgba(201, 162, 39, .12);
+    border: 1px solid rgba(201, 162, 39, .25);
+    border-radius: 8px;
+    font-size: var(--text-xs);
+    font-weight: 600;
+    color: var(--accent-300);
+  }
+  /* trust section */
+  .hero__right-mobile .hero__trust {
+    margin-top: 36px;
+  }
+  .hero__right-mobile .hero__trust .label {
+    font-size: var(--text-xs);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: rgba(246, 249, 247, .45);
+    margin-bottom: 14px;
+  }
+  .hero__right-mobile .trust-strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .hero__right-mobile .trust-strip span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    font-size: var(--text-xs);
+    font-weight: 500;
+    background: rgba(255, 255, 255, .06);
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 20px;
+    color: #C8DBD1;
+  }
+  .hero__right-mobile .trust-strip span svg {
+    width: 14px;
+    height: 14px;
+    opacity: .6;
+  }
 }
