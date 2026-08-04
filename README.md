@@ -8,6 +8,8 @@ Group Limited).
 No build step, no framework — plain HTML + CSS + vanilla JS. Open any page over
 a static file server and it works.
 
+**Live (GitHub Pages):** https://chrisyuspithk-bot.github.io/orchardtech-greenova-group/
+
 ## Run locally
 
 Any static server works. From this directory:
