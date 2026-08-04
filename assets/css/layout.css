@@ -107,6 +107,7 @@
   z-index: 260;
   border-radius: 10px;
   margin-right: calc(-1 * var(--gutter));
+  flex: none;
 }
 .nav-toggle span {
   position: absolute; left: 11px; right: 11px;
@@ -260,6 +261,7 @@ html[lang^="zh"] .site-footer h2 { letter-spacing: .06em; }
 /* ---------- Responsive ---------- */
 @media (max-width: 1120px) {
   .site-nav { display: none; }
+  .site-nav + .header-actions { margin-left: auto; }
   .nav-toggle { display: block; }
 }
 @media (max-width: 860px) {
