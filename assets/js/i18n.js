@@ -65,7 +65,7 @@
       var saved = localStorage.getItem("og-locale");
       if (saved && valid(saved)) return saved;
     } catch (e) { /* storage unavailable */ }
-    return normalise(navigator.language || "zh") || "zh";
+    return "zh";
   };
 
   OG.getLocale = function () {

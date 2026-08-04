@@ -439,7 +439,7 @@ html[lang^="zh"] .hero__trust .label { letter-spacing: .06em; }
 
 /* ---------- Home hero responsive ---------- */
 @media (max-width: 960px) {
-  .hero { min-height: 100svh; }
+  .hero { height: 100dvh; overflow-y: auto; }
   .hero::after { display: none; }
   .hero::before { left: auto; right: -110px; bottom: auto; top: 64px; width: 340px; height: 340px; }
   .hero__veil { display: none; }
