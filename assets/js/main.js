@@ -9,15 +9,6 @@
 
   var reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-  /* ---------- Header: glass on scroll (§7.4) ---------- */
-  var header = document.querySelector(".site-header");
-  function onScrollHeader() {
-    if (!header) return;
-    header.classList.toggle("is-scrolled", window.scrollY > 40);
-  }
-  window.addEventListener("scroll", onScrollHeader, { passive: true });
-  onScrollHeader();
-
   /* ---------- Mobile menu ---------- */
   var navToggle = document.querySelector(".nav-toggle");
   var mobileMenu = document.querySelector(".mobile-menu");
