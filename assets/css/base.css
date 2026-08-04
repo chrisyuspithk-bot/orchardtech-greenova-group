@@ -57,10 +57,11 @@
   --gutter: clamp(20px, 4vw, 48px);
 
   /* Fonts */
-  --font-display: "Space Grotesk", "Inter", "Noto Sans TC", system-ui, sans-serif;
-  --font-body: "Inter", "Noto Sans TC", system-ui, "PingFang TC", "Microsoft JhengHei", sans-serif;
-  --font-zh: "Noto Sans TC", "Inter", system-ui, "PingFang TC", "Microsoft JhengHei", sans-serif;
-  --font-quote: "Source Serif 4", "Noto Sans TC", Georgia, serif;
+  --font-display: "Space Grotesk", "Inter", "Noto Sans HK", "Noto Sans SC", system-ui, sans-serif;
+  --font-body: "Inter", "Noto Sans HK", "Noto Sans SC", system-ui, "PingFang HK", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+  --font-zh: "Noto Sans HK", "Noto Sans SC", "PingFang HK", "PingFang SC", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;
+  --font-zh-display: "Noto Serif HK", "Noto Serif SC", "Songti TC", "Songti SC", "PMingLiU", serif;
+  --font-quote: "Source Serif 4", "Noto Serif HK", "Noto Serif SC", Georgia, serif;
 
   /* Motion */
   --ease-out: cubic-bezier(.22, 1, .36, 1);
@@ -115,17 +116,20 @@ html[lang="en"] h1, html[lang="en"] h2, html[lang="en"] .en-head {
   letter-spacing: -0.025em;
   line-height: 1.12;
 }
-html[lang="zh-HK"] h1, html[lang="zh-HK"] h2, html[lang="zh-HK"] h3 {
-  font-family: var(--font-zh);
-  line-height: 1.2;
+/* CJK display heads: Noto Serif HK/SC — editorial, consulting-grade voice */
+html[lang^="zh"] h1, html[lang^="zh"] h2 {
+  font-family: var(--font-zh-display);
+  line-height: 1.22;
+  letter-spacing: .015em;
 }
-html[lang="zh-HK"] h1 { font-weight: 900; }
+html[lang^="zh"] h3 { font-family: var(--font-zh); line-height: 1.3; }
+html[lang^="zh"] h1 { font-weight: 900; }
 
 .quote {
   font-family: var(--font-quote);
   font-style: italic;
 }
-html[lang="zh-HK"] .quote { font-style: normal; font-weight: 500; }
+html[lang^="zh"] .quote { font-style: normal; font-weight: 600; }
 .num { font-variant-numeric: tabular-nums; }
 
 p { max-width: 68ch; }
@@ -170,7 +174,7 @@ p { max-width: 68ch; }
   color: var(--accent-500);
   margin-bottom: 18px;
 }
-html[lang="zh-HK"] .eyebrow { letter-spacing: 0.08em; text-transform: none; }
+html[lang^="zh"] .eyebrow { letter-spacing: 0.08em; text-transform: none; }
 .eyebrow::before {
   content: "";
   width: 28px; height: 2px;

@@ -1,12 +1,59 @@
 /* Page 07 — 联络我们 / Contact Us. Copy verbatim from pages/07-contact.md. */
+
 OG.register("contact", {
-  zh: {
+  "zh": {
+    "crumb.here": "聯絡我們",
+    "hero.eyebrow": "聯絡我們",
+    "hero.title": "與集團取得聯繫",
+    "hero.en": "Contact Us — Hong Kong Headquarters",
+    "hero.lead": "無論是集團合作、業務諮詢或媒體查詢，歡迎隨時與我們聯絡。",
+    "hq.eyebrow": "香港總部",
+    "hq.title": "Hong Kong Headquarters",
+    "hq.addr.label": "地址",
+    "hq.addr": "香港灣仔港灣道6-8號瑞安中心19樓1906-07室",
+    "hq.tel.label": "電話",
+    "hq.tel": "(+852) 3628 3499",
+    "hq.fax.label": "傳真",
+    "hq.fax": "(+852) 3628 3498",
+    "hq.email.label": "電郵",
+    "hq.email": "info@orchardtechgroup.com",
+    "map.caption": "香港灣仔 · 瑞安中心",
+    "map.pin": "OrchardTech Greenova HQ",
+    "form.eyebrow": "業務諮詢表單",
+    "form.title": "提交您的諮詢",
+    "form.lead": "填寫以下表格，我們的團隊將盡快回復。",
+    "form.name": "姓名",
+    "form.name.ph": "請輸入您的姓名",
+    "form.company": "公司",
+    "form.company.ph": "請輸入公司名稱",
+    "form.email": "電郵",
+    "form.email.ph": "name@example.com",
+    "form.phone": "電話",
+    "form.phone.ph": "+852 ...",
+    "form.type": "諮詢類型",
+    "form.type.1": "集團合作與投資",
+    "form.type.2": "Pro-IAQ 服務諮詢（空氣治理/IT硬件/ERP/RFID/NEC合作）",
+    "form.type.3": "GP Investment 產品諮詢（AI教育方案/AI企業方案）",
+    "form.type.4": "媒體與公關",
+    "form.type.5": "其他",
+    "form.msg": "留言",
+    "form.msg.ph": "請簡述您的需求…",
+    "form.submit": "提交諮詢",
+    "form.note": "提交即表示您同意我們通過所提供的聯絡方式回覆您的諮詢。",
+    "form.err.required": "此欄爲必填項",
+    "form.err.email": "請輸入有效的電郵地址",
+    "form.err.phone": "請輸入有效的電話號碼",
+    "form.success.title": "提交成功",
+    "form.success.body": "感謝您的諮詢，我們的團隊將盡快與您聯絡。",
+    "form.error.title": "提交未能完成",
+    "form.error.body": "表單服務暫未接通，請改以電郵聯絡我們："
+  },
+  "cn": {
     "crumb.here": "联络我们",
     "hero.eyebrow": "联络我们",
     "hero.title": "与集团取得联系",
     "hero.en": "Contact Us — Hong Kong Headquarters",
     "hero.lead": "无论是集团合作、业务咨询或媒体查询，欢迎随时与我们联络。",
-
     "hq.eyebrow": "香港总部",
     "hq.title": "Hong Kong Headquarters",
     "hq.addr.label": "地址",
@@ -19,7 +66,6 @@ OG.register("contact", {
     "hq.email": "info@orchardtechgroup.com",
     "map.caption": "香港湾仔 · 瑞安中心",
     "map.pin": "OrchardTech Greenova HQ",
-
     "form.eyebrow": "业务咨询表单",
     "form.title": "提交您的咨询",
     "form.lead": "填写以下表格，我们的团队将尽快回复。",
@@ -49,13 +95,12 @@ OG.register("contact", {
     "form.error.title": "提交未能完成",
     "form.error.body": "表单服务暂未接通，请改以电邮联络我们："
   },
-  en: {
+  "en": {
     "crumb.here": "Contact Us",
     "hero.eyebrow": "Contact Us",
     "hero.title": "Get in Touch with the Group",
-    "hero.en": "联络我们 — 香港总部",
+    "hero.en": "聯絡我們 — 香港總部",
     "hero.lead": "For group cooperation, business enquiries or media requests, please contact us anytime.",
-
     "hq.eyebrow": "Hong Kong Headquarters",
     "hq.title": "Hong Kong Headquarters",
     "hq.addr.label": "Address",
@@ -68,7 +113,6 @@ OG.register("contact", {
     "hq.email": "info@orchardtechgroup.com",
     "map.caption": "Wan Chai, Hong Kong · Shui On Centre",
     "map.pin": "OrchardTech Greenova HQ",
-
     "form.eyebrow": "Enquiry Form",
     "form.title": "Submit Your Enquiry",
     "form.lead": "Complete the form below and our team will respond as soon as possible.",
@@ -101,12 +145,16 @@ OG.register("contact", {
 });
 
 OG.registerMeta({
-  zh: {
-    title: "联络我们 | OrchardTech Greenova",
-    desc: "OrchardTech Greenova 香港总部：香港湾仔港湾道6-8号瑞安中心19楼1906-07室 · 电话 (+852) 3628 3499 · 电邮 info@orchardtechgroup.com。"
+  "zh": {
+    "title": "聯絡我們 | OrchardTech Greenova",
+    "desc": "OrchardTech Greenova 香港總部：香港灣仔港灣道6-8號瑞安中心19樓1906-07室 · 電話 (+852) 3628 3499 · 電郵 info@orchardtechgroup.com。"
   },
-  en: {
-    title: "Contact Us | OrchardTech Greenova",
-    desc: "OrchardTech Greenova Hong Kong HQ: Unit 1906-07, 19/F, Shui On Centre, 6-8 Harbour Road, Wan Chai · Tel (+852) 3628 3499 · info@orchardtechgroup.com."
+  "cn": {
+    "title": "联络我们 | OrchardTech Greenova",
+    "desc": "OrchardTech Greenova 香港总部：香港湾仔港湾道6-8号瑞安中心19楼1906-07室 · 电话 (+852) 3628 3499 · 电邮 info@orchardtechgroup.com。"
+  },
+  "en": {
+    "title": "Contact Us | OrchardTech Greenova",
+    "desc": "OrchardTech Greenova Hong Kong HQ: Unit 1906-07, 19/F, Shui On Centre, 6-8 Harbour Road, Wan Chai · Tel (+852) 3628 3499 · info@orchardtechgroup.com."
   }
 });

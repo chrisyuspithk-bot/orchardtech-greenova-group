@@ -1,6 +1,77 @@
 /* Page 01 — 首页 / Home. Copy verbatim from pages/01-home.md. */
+
 OG.register("home", {
-  zh: {
+  "zh": {
+    "hero.h1a": "科技賦能生態未來",
+    "hero.h1b": "構建可持續價值增長引擎",
+    "hero.h1.en": "Technology Empowers Green Future",
+    "hero.lead": "OrchardTech Greenova Group Limited 是一家總部位於香港的實業科技平台，以「穩健現金流 + 高毛利科技」雙引擎驅動，通過旗下 Pro-IAQ 與 GP Investment 兩大子公司，打造風險對沖、協同增長的可持續價值生態。集團已啟動上市計劃，致力於成爲全球領先的綠色科技投資平台。",
+    "hero.cta1": "探索我們的業務",
+    "hero.cta2": "投資者關係",
+    "hero.chip.kicker": "最新里程碑",
+    "hero.chip.title": "「AI綠色智慧節能大廈」系統於香港科學園深圳分院成功上線",
+    "hero.chip.body": "2026年6月 · 標誌首個商業化項目落地",
+    "hero.chip.go": "瞭解研發與合作",
+    "hero.trust.label": "權威認證 · 戰略合作",
+    "hero.trust.1": "香港環保署",
+    "hero.trust.2": "NEC 世界500強",
+    "hero.trust.3": "香港理工大學",
+    "hero.trust.4": "香港科學園",
+    "hero.scroll": "向下滾動",
+    "stats.eyebrow": "集團核心數據",
+    "stats.title": "數字看板",
+    "stats.lead": "以實業爲底盤、以科技爲引擎——集團關鍵指標一覽。",
+    "stats.1.value": "2014",
+    "stats.1.label": "成立年份",
+    "stats.2.value": "2",
+    "stats.2.unit": "家",
+    "stats.2.label": "旗下子公司",
+    "stats.3.value": "12",
+    "stats.3.suffix": "+2",
+    "stats.3.label": "核心技術專利",
+    "stats.3.sub": "12項（申請中）/ 2項（已授權）",
+    "stats.4.value": "世界500強 NEC · 香港理工大學",
+    "stats.4.label": "戰略合作伙伴",
+    "stats.5.value": "5",
+    "stats.5.unit": "類",
+    "stats.5.label": "服務覆蓋場景",
+    "stats.5.sub": "商場 · 酒店 · 寫字樓 · 學校 · 醫院",
+    "stats.6.value": "2026",
+    "stats.6.suffix": ".6",
+    "stats.6.label": "最新里程碑",
+    "stats.6.sub": "香港科學園深圳分院AI節能系統上線",
+    "values.eyebrow": "核心價值",
+    "values.title": "三大核心價值",
+    "values.1.title": "雙引擎驅動 · 風險對沖",
+    "values.1.body": "Pro-IAQ 提供穩定經常性現金流（年費訂閱模式），GP Investment 聚焦高毛利AI及數字化方案。雙業務線獨立運營、現金流天然互補，有效抵禦行業週期波動。",
+    "values.2.title": "硬核資質 · 生態背書",
+    "values.2.body": "獲香港環保署官方權威認證；與世界500強NEC建立長期深度戰略合作；聯合香港理工大學開展前沿AI技術研發——技術、資源、公信力三重賦能。",
+    "values.3.title": "科技護城河 · 信任資產",
+    "values.3.body": "擁有自主研發的核心技術壁壘，累計申請12項專利。以實業爲底盤、以科技爲引擎，打造可持續增長的投資價值高地。",
+    "subs.eyebrow": "集團架構",
+    "subs.title": "旗下子公司概覽",
+    "subs.proiaq.badge": "穩健現金流",
+    "subs.proiaq.name": "Pro-IAQ 室內空氣科技有限公司",
+    "subs.proiaq.body": "專注於綠色健康室內環境，將IoT感知技術與AI算法深度融合，提供從空氣監測、淨化到能耗管理的一站式智能解決方案。同時從事IT軟硬件貿易，代理銷售RFID硬件及ERP系統。",
+    "subs.proiaq.link": "瞭解更多",
+    "subs.gp.badge": "高增長引擎",
+    "subs.gp.name": "GP Investment Group Limited",
+    "subs.gp.body": "專注於AI技術研發與企業數字化解決方案。聚焦香港學界（優質教育基金20億）與中小企業（全民AI 3億）兩大核心市場，提供AI算力本地部署、RAG知識庫建立及AI教學/行政/商業應用方案。",
+    "subs.gp.link": "瞭解更多",
+    "news.label": "最新動態",
+    "news.1.date": "2026年7月",
+    "news.1.text": "集團上市計劃正式啟動",
+    "news.2.date": "2026年6月",
+    "news.2.text": "「AI綠色智慧節能大廈」系統於香港科學園深圳分院成功上線，標誌首個商業化項目落地",
+    "news.3.date": "2026年6月",
+    "news.3.text": "與香港理工大學聯合研發的AI節能方案取得突破性進展",
+    "news.4.date": "持續推進",
+    "news.4.text": "自研 Mustair 空氣淨化器項目持續推進，目標全球高端市場",
+    "cta.title": "集團上市計劃已正式啟動",
+    "cta.body": "2026年7月 · 致力於成爲全球領先的綠色科技投資平台。",
+    "cta.btn": "投資者關係"
+  },
+  "cn": {
     "hero.h1a": "科技赋能生态未来",
     "hero.h1b": "构建可持续价值增长引擎",
     "hero.h1.en": "Technology Empowers Green Future",
@@ -17,7 +88,6 @@ OG.register("home", {
     "hero.trust.3": "香港理工大学",
     "hero.trust.4": "香港科学园",
     "hero.scroll": "向下滚动",
-
     "stats.eyebrow": "集团核心数据",
     "stats.title": "数字看板",
     "stats.lead": "以实业为底盘、以科技为引擎——集团关键指标一览。",
@@ -40,7 +110,6 @@ OG.register("home", {
     "stats.6.suffix": ".6",
     "stats.6.label": "最新里程碑",
     "stats.6.sub": "香港科学园深圳分院AI节能系统上线",
-
     "values.eyebrow": "核心价值",
     "values.title": "三大核心价值",
     "values.1.title": "双引擎驱动 · 风险对冲",
@@ -49,7 +118,6 @@ OG.register("home", {
     "values.2.body": "获香港环保署官方权威认证；与世界500强NEC建立长期深度战略合作；联合香港理工大学开展前沿AI技术研发——技术、资源、公信力三重赋能。",
     "values.3.title": "科技护城河 · 信任资产",
     "values.3.body": "拥有自主研发的核心技术壁垒，累计申请12项专利。以实业为底盘、以科技为引擎，打造可持续增长的投资价值高地。",
-
     "subs.eyebrow": "集团架构",
     "subs.title": "旗下子公司概览",
     "subs.proiaq.badge": "稳健现金流",
@@ -60,7 +128,6 @@ OG.register("home", {
     "subs.gp.name": "GP Investment Group Limited",
     "subs.gp.body": "专注于AI技术研发与企业数字化解决方案。聚焦香港学界（优质教育基金20亿）与中小企业（全民AI 3亿）两大核心市场，提供AI算力本地部署、RAG知识库建立及AI教学/行政/商业应用方案。",
     "subs.gp.link": "了解更多",
-
     "news.label": "最新动态",
     "news.1.date": "2026年7月",
     "news.1.text": "集团上市计划正式启动",
@@ -70,15 +137,14 @@ OG.register("home", {
     "news.3.text": "与香港理工大学联合研发的AI节能方案取得突破性进展",
     "news.4.date": "持续推进",
     "news.4.text": "自研 Mustair 空气净化器项目持续推进，目标全球高端市场",
-
     "cta.title": "集团上市计划已正式启动",
     "cta.body": "2026年7月 · 致力于成为全球领先的绿色科技投资平台。",
     "cta.btn": "投资者关系"
   },
-  en: {
+  "en": {
     "hero.h1a": "Technology Empowers Green Future",
     "hero.h1b": "Building a Sustainable Value Growth Engine",
-    "hero.h1.en": "科技赋能生态未来",
+    "hero.h1.en": "科技賦能生態未來",
     "hero.lead": "OrchardTech Greenova Group Limited is a Hong Kong-headquartered industrial technology platform. Driven by the dual-engine of “stable recurring cash flow + high-margin technology,” we create a risk-hedged, synergistic growth ecosystem through our two subsidiaries, Pro-IAQ and GP Investment. The Group has launched its IPO plan, committed to becoming a globally leading green technology investment platform.",
     "hero.cta1": "Explore Our Business",
     "hero.cta2": "Investor Relations",
@@ -92,7 +158,6 @@ OG.register("home", {
     "hero.trust.3": "Hong Kong PolyU",
     "hero.trust.4": "HKSTP",
     "hero.scroll": "Scroll down",
-
     "stats.eyebrow": "Key Metrics",
     "stats.title": "Group at a Glance",
     "stats.lead": "Industry as foundation, technology as engine — the Group’s key metrics.",
@@ -115,7 +180,6 @@ OG.register("home", {
     "stats.6.suffix": ".6",
     "stats.6.label": "Latest Milestone",
     "stats.6.sub": "AI Energy System go-live at HKSTP Shenzhen Branch",
-
     "values.eyebrow": "Core Values",
     "values.title": "Three Core Values",
     "values.1.title": "Dual-Engine · Risk Hedging",
@@ -124,7 +188,6 @@ OG.register("home", {
     "values.2.body": "Officially accredited by Hong Kong EPD; long-term strategic partnership with Fortune 500 NEC; joint AI R&D with Hong Kong Polytechnic University — technology, resources, and credibility combined.",
     "values.3.title": "Tech Moat · Trust Assets",
     "values.3.body": "Proprietary core technologies with 12 patents filed. Built on a solid industrial foundation and powered by technology, we create a sustainable growth investment value hub.",
-
     "subs.eyebrow": "Group Structure",
     "subs.title": "Subsidiary Overview",
     "subs.proiaq.badge": "Stable Cash Flow",
@@ -135,7 +198,6 @@ OG.register("home", {
     "subs.gp.name": "GP Investment Group Limited",
     "subs.gp.body": "Specializing in AI technology R&D and enterprise digital solutions. Focusing on Hong Kong’s education sector (QEF HK$2B) and SMEs (全民AI HK$300M), providing AI on-premise deployment, RAG knowledge base construction, and AI-powered teaching/administrative/business application solutions.",
     "subs.gp.link": "Learn More",
-
     "news.label": "Latest News",
     "news.1.date": "July 2026",
     "news.1.text": "Group IPO Plan Officially Launched",
@@ -145,7 +207,6 @@ OG.register("home", {
     "news.3.text": "Breakthrough progress in joint AI energy solution with PolyU",
     "news.4.date": "Ongoing",
     "news.4.text": "Mustair self-developed air purifier project advancing toward global high-end market",
-
     "cta.title": "The Group’s IPO Plan Has Officially Launched",
     "cta.body": "July 2026 · Committed to becoming a globally leading green technology investment platform.",
     "cta.btn": "Investor Relations"
@@ -153,12 +214,16 @@ OG.register("home", {
 });
 
 OG.registerMeta({
-  zh: {
-    title: "OrchardTech Greenova Group Limited — 科技赋能生态未来 · 可持续价值增长引擎",
-    desc: "OrchardTech Greenova 是一家总部位于香港的实业科技平台，旗下拥有 Pro-IAQ 与 GP Investment 两大子公司，以「稳健现金流 + 高毛利科技」双引擎驱动，构建可持续发展的绿色科技生态。"
+  "zh": {
+    "title": "OrchardTech Greenova Group Limited — 科技賦能生態未來 · 可持續價值增長引擎",
+    "desc": "OrchardTech Greenova 是一家總部位於香港的實業科技平台，旗下擁有 Pro-IAQ 與 GP Investment 兩大子公司，以「穩健現金流 + 高毛利科技」雙引擎驅動，構建可持續發展的綠色科技生態。"
   },
-  en: {
-    title: "OrchardTech Greenova Group Limited — Technology Empowers Green Future · Sustainable Value Growth Engine",
-    desc: "OrchardTech Greenova is a Hong Kong-headquartered industrial technology platform with two subsidiaries, Pro-IAQ and GP Investment. Driven by the dual-engine of “stable cash flow + high-margin technology,” we build a sustainable green technology ecosystem."
+  "cn": {
+    "title": "OrchardTech Greenova Group Limited — 科技赋能生态未来 · 可持续价值增长引擎",
+    "desc": "OrchardTech Greenova 是一家总部位于香港的实业科技平台，旗下拥有 Pro-IAQ 与 GP Investment 两大子公司，以「稳健现金流 + 高毛利科技」双引擎驱动，构建可持续发展的绿色科技生态。"
+  },
+  "en": {
+    "title": "OrchardTech Greenova Group Limited — Technology Empowers Green Future · Sustainable Value Growth Engine",
+    "desc": "OrchardTech Greenova is a Hong Kong-headquartered industrial technology platform with two subsidiaries, Pro-IAQ and GP Investment. Driven by the dual-engine of “stable cash flow + high-margin technology,” we build a sustainable green technology ecosystem."
   }
 });

@@ -11,26 +11,48 @@
   min-height: 100svh;
   display: flex;
   align-items: stretch;
-  background: linear-gradient(160deg, #F6F9F7 0%, #E4EFE9 55%, #D8E8DF 100%);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, 0) 28%),
+    linear-gradient(160deg, #F7FAF8 0%, #E9F1EC 55%, #DCEAE2 100%);
   overflow: hidden;
 }
+/* Editorial column rules — quiet consulting-grid rhythm, not graph paper */
 .hero__grid-lines {
   position: absolute; inset: 0;
-  background-image:
-    linear-gradient(rgba(12, 74, 60, .055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(12, 74, 60, .055) 1px, transparent 1px);
-  background-size: 60px 60px;
+  background-image: linear-gradient(90deg, rgba(12, 74, 60, .055) 1px, transparent 1px);
+  background-size: calc(100% / 6) 100%;
+  pointer-events: none;
+}
+/* Ghost brand watermark anchored to the title zone */
+.hero::before {
+  content: "";
+  position: absolute;
+  left: -120px; bottom: -150px;
+  width: 520px; height: 520px;
+  background: url("../img/favicon.svg") no-repeat center / contain;
+  opacity: .05;
+  pointer-events: none;
+}
+/* Gold seam tracing the diagonal edge of the veil (IPO accent) */
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0; right: 0; bottom: 0;
+  width: 55%;
+  background: linear-gradient(180deg, rgba(201, 162, 39, .6), rgba(201, 162, 39, .22));
+  clip-path: polygon(calc(9% - 2px) 0, 100% 0, 100% 100%, calc(0% - 2px) 100%);
   pointer-events: none;
 }
 .hero__glow {
   position: absolute;
   top: -180px; right: -120px;
   width: 720px; height: 720px;
-  background: radial-gradient(circle, rgba(46, 204, 113, .16), transparent 65%);
+  background: radial-gradient(circle, rgba(46, 204, 113, .13), transparent 65%);
   pointer-events: none;
 }
 .hero__veil {
   position: absolute;
+  z-index: 1;
   top: 0; right: 0; bottom: 0;
   width: 55%;
   background: linear-gradient(135deg, rgba(7, 41, 31, .94) 0%, rgba(12, 74, 60, .9) 45%, rgba(18, 89, 74, .88) 100%);
@@ -140,7 +162,7 @@ html[lang="en"] .hero h1 { font-weight: 700; line-height: 1.05; font-size: clamp
   color: rgba(246, 249, 247, .5);
   margin-bottom: 10px;
 }
-html[lang="zh-HK"] .hero__trust .label { letter-spacing: .06em; }
+html[lang^="zh"] .hero__trust .label { letter-spacing: .06em; }
 
 /* Scroll cue (§7.1) */
 .scroll-cue {
@@ -155,7 +177,7 @@ html[lang="zh-HK"] .hero__trust .label { letter-spacing: .06em; }
   text-transform: uppercase;
   color: var(--ink-500);
 }
-html[lang="zh-HK"] .scroll-cue { letter-spacing: .08em; }
+html[lang^="zh"] .scroll-cue { letter-spacing: .08em; }
 .scroll-cue .line {
   width: 1px; height: 42px;
   background: var(--ink-400);
@@ -175,23 +197,24 @@ html[lang="zh-HK"] .scroll-cue { letter-spacing: .08em; }
 .page-hero {
   position: relative;
   padding: 168px 0 clamp(56px, 7vw, 88px);
-  background: linear-gradient(160deg, #F6F9F7 0%, #E4EFE9 55%, #D8E8DF 100%);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, 0) 30%),
+    linear-gradient(160deg, #F7FAF8 0%, #E9F1EC 55%, #DCEAE2 100%);
+  border-bottom: 1px solid var(--line);
   overflow: hidden;
 }
 .page-hero::before {
   content: "";
   position: absolute; inset: 0;
-  background-image:
-    linear-gradient(rgba(12, 74, 60, .05) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(12, 74, 60, .05) 1px, transparent 1px);
-  background-size: 60px 60px;
+  background-image: linear-gradient(90deg, rgba(12, 74, 60, .05) 1px, transparent 1px);
+  background-size: calc(100% / 6) 100%;
 }
 .page-hero::after {
   content: "";
   position: absolute;
   top: -220px; right: -140px;
   width: 640px; height: 640px;
-  background: radial-gradient(circle, rgba(46, 204, 113, .14), transparent 65%);
+  background: radial-gradient(circle, rgba(46, 204, 113, .12), transparent 65%);
 }
 .page-hero .container { position: relative; z-index: 2; }
 .page-hero h1 { font-size: var(--text-h1); margin: 14px 0 18px; max-width: 18em; }
@@ -441,6 +464,8 @@ html[lang="zh-HK"] .scroll-cue { letter-spacing: .08em; }
 /* ---------- Home hero responsive ---------- */
 @media (max-width: 960px) {
   .hero { min-height: 0; }
+  .hero::after { display: none; }
+  .hero::before { left: auto; right: -110px; bottom: auto; top: 64px; width: 340px; height: 340px; }
   .hero__veil {
     width: 100%;
     clip-path: none;

@@ -1,18 +1,25 @@
 /* ==========================================================================
    OrchardTech Greenova — i18n.js
-   Client-side locale engine (default zh-HK, toggle en).
-   - Content registers via OG.register(scope, {zh:{...}, en:{...}})
+   Client-side locale engine: zh-HK 繁體 (default) / zh-CN 简体 / en.
+   - Content registers via OG.register(scope, {zh:{...}, cn:{...}, en:{...}})
    - Elements opt in with [data-i18n="key"]; attribute swaps via
      [data-i18n-attr="placeholder:form.name.ph,aria-label:nav.home"]
-   - Choice persists in localStorage("og-locale"); ?lang= overrides;
-     falls back to navigator.language (zh* -> zh, else en).
+   - Choice persists in localStorage("og-locale"); ?lang=zh|cn|en overrides;
+     falls back to navigator.language (Hans regions -> cn, else zh / en).
    ========================================================================== */
 (function () {
   "use strict";
 
   var OG = (window.OG = window.OG || {});
-  var store = { common: { zh: {}, en: {} } };
-  var meta = { zh: { title: "", desc: "" }, en: { title: "", desc: "" } };
+  var LOCALES = ["zh", "cn", "en"];
+  var HTML_LANG = { zh: "zh-HK", cn: "zh-CN", en: "en" };
+  var OG_LOCALE = { zh: "zh_HK", cn: "zh_CN", en: "en_US" };
+  var store = { common: { zh: {}, cn: {}, en: {} } };
+  var meta = {
+    zh: { title: "", desc: "" },
+    cn: { title: "", desc: "" },
+    en: { title: "", desc: "" }
+  };
 
   OG.register = function (scope, dict) {
     store[scope] = dict;
@@ -21,6 +28,24 @@
   OG.registerMeta = function (m) {
     meta = m;
   };
+
+  function valid(locale) {
+    return LOCALES.indexOf(locale) !== -1;
+  }
+
+  // Map arbitrary language tags ("zh-Hans-CN", "zh-tw", "en-GB"...) to a locale
+  function normalise(tag) {
+    if (!tag) return null;
+    var t = String(tag).toLowerCase();
+    if (t === "cn") return "cn";
+    if (t.indexOf("en") === 0) return "en";
+    if (t.indexOf("zh") === 0) {
+      if (t.indexOf("hans") !== -1 || t.indexOf("cn") !== -1 ||
+          t.indexOf("sg") !== -1 || t.indexOf("my") !== -1) return "cn";
+      return "zh";
+    }
+    return null;
+  }
 
   function lookup(locale, key) {
     var scopes = Object.keys(store);
@@ -34,23 +59,23 @@
 
   OG.detectLocale = function () {
     var params = new URLSearchParams(window.location.search);
-    var q = params.get("lang");
-    if (q === "en" || q === "zh") return q;
+    var q = normalise(params.get("lang"));
+    if (q) return q;
     try {
       var saved = localStorage.getItem("og-locale");
-      if (saved === "en" || saved === "zh") return saved;
+      if (saved && valid(saved)) return saved;
     } catch (e) { /* storage unavailable */ }
-    var nav = (navigator.language || "zh").toLowerCase();
-    return nav.indexOf("zh") === 0 ? "zh" : "en";
+    return normalise(navigator.language || "zh") || "zh";
   };
 
   OG.getLocale = function () {
-    return document.documentElement.getAttribute("lang") === "en" ? "en" : "zh";
+    return normalise(document.documentElement.getAttribute("lang")) || "zh";
   };
 
   OG.applyLocale = function (locale) {
+    if (!valid(locale)) locale = "zh";
     var html = document.documentElement;
-    html.setAttribute("lang", locale === "en" ? "en" : "zh-HK");
+    html.setAttribute("lang", HTML_LANG[locale]);
 
     // Text nodes
     document.querySelectorAll("[data-i18n]").forEach(function (el) {
@@ -76,7 +101,7 @@
     setMeta('name', 'description', m.desc);
     setMeta('property', 'og:title', m.title);
     setMeta('property', 'og:description', m.desc);
-    setMeta('property', 'og:locale', locale === "en" ? "en_US" : "zh_HK");
+    setMeta('property', 'og:locale', OG_LOCALE[locale]);
     setMeta('name', 'twitter:title', m.title);
     setMeta('name', 'twitter:description', m.desc);
 

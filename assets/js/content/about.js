@@ -1,25 +1,96 @@
 /* Page 02 — 关于我们 / About Us. Copy verbatim from pages/02-about.md. */
+
 OG.register("about", {
-  zh: {
+  "zh": {
+    "crumb.here": "關於我們",
+    "hero.eyebrow": "關於我們",
+    "hero.title": "集團架構與發展歷程",
+    "hero.en": "About Us — Group Structure & Milestones",
+    "hero.lead": "OrchardTech Greenova Group Limited 總部位於香港，通過兩家全資子公司打造獨特的「雙引擎」增長結構。",
+    "pos.eyebrow": "集團定位",
+    "pos.title": "穩健與爆發並存的「雙引擎」",
+    "pos.body": "OrchardTech Greenova Group Limited 總部位於香港，通過兩家全資子公司打造獨特的「雙引擎」增長結構——Pro-IAQ 提供穩定經常性現金流的基礎業務，GP Investment 承載高毛利AI及數字化方案的未來增長，實現穩健與爆發並存的發展態勢。",
+    "region.title": "區位根基與全球視野",
+    "region.body": "以香港爲戰略支點，深耕港澳及粵港澳大灣區核心市場，依託成熟的運營網絡與地緣優勢，穩步拓展全球業務版圖，構建跨境協同的發展格局。",
+    "mv.eyebrow": "使命與願景",
+    "mv.title": "以科技賦能綠色生態",
+    "mv.mission.label": "使命",
+    "mv.mission.body": "以科技賦能綠色生態，構建可持續的價值增長引擎",
+    "mv.vision.label": "願景",
+    "mv.vision.body": "成爲全球領先的綠色科技投資平台，引領低碳智慧未來的產業變革",
+    "org.eyebrow": "集團組織架構",
+    "org.title": "一家控股平台 · 兩家全資子公司",
+    "org.parent.name": "OrchardTech Greenova Group Limited",
+    "org.parent.role": "戰略統籌 · 資本運作 · 資源協同",
+    "org.parent.sub": "香港理工大學聯合研發 · 香港科學園深圳分院",
+    "org.proiaq.name": "Pro-IAQ Limited",
+    "org.proiaq.tag": "室內空氣科技有限公司",
+    "org.proiaq.core.h": "核心業務",
+    "org.proiaq.core.1": "室內空氣檢測",
+    "org.proiaq.core.2": "空氣淨化設備銷售/租賃",
+    "org.proiaq.core.3": "除甲醛與消毒服務",
+    "org.proiaq.core.4": "IAQ認證與改善工程",
+    "org.proiaq.core.5": "AI大廈節能系統（配合Greenova統籌）",
+    "org.proiaq.trade.h": "IT軟硬件貿易板塊",
+    "org.proiaq.trade.1": "世界500強NEC合作",
+    "org.proiaq.trade.2": "RFID硬件銷售",
+    "org.proiaq.trade.3": "ERP系統定製與集成",
+    "org.gp.name": "GP Investment Group Limited",
+    "org.gp.tag": "AI研發與數字化賦能",
+    "org.gp.core.h": "核心業務",
+    "org.gp.core.1": "AI算力本地部署",
+    "org.gp.core.2": "RAG知識庫建立",
+    "org.gp.core.3": "AI教學輔助方案（學界）",
+    "org.gp.core.4": "AI行政自動化（學界）",
+    "org.gp.core.5": "企業AI應用方案（中小企）",
+    "org.gp.core.6": "12項核心技術專利",
+    "org.gp.market.h": "目標市場",
+    "org.gp.market.1": "香港學界（優質教育基金20億）",
+    "org.gp.market.2": "香港中小企業（全民AI 3億扶持）",
+    "org.roles.h": "母公司角色",
+    "org.roles.1": "頂層設計與戰略規劃",
+    "org.roles.2": "資本運作與財務管控",
+    "org.roles.3": "跨子公司資源協同與客戶共享",
+    "org.roles.4": "香港理工大學聯合研發的統籌推進",
+    "org.roles.5": "香港科學園深圳分院AI節能項目的總體協調",
+    "org.roles.6": "投資者關係與上市事務管理",
+    "tl.eyebrow": "發展里程碑",
+    "tl.title": "2014 → 2026 · 從空氣治理到AI綠色科技",
+    "tl.1.year": "2014",
+    "tl.1.title": "傳統服務奠基",
+    "tl.1.body": "Pro-IAQ 正式成立，獲香港環保署權威認可。核心業務涵蓋空氣檢測與除甲醛服務。成功取得 AirProce 及 Luko 港澳總代理權，逐步構建堅實的B端客戶基礎。",
+    "tl.2.year": "2019",
+    "tl.2.title": "數智化升級",
+    "tl.2.body": "全面導入物聯網技術，實現設備數據的實時監控與遠程智能控制。推動服務模式從傳統一次性工程交付，向可持續的年度運營維護轉型。",
+    "tl.3.year": "2022",
+    "tl.3.title": "科技賦能擴張",
+    "tl.3.body": "GP Investment 正式成立，聚焦AI技術研發與企業數字化方案。集團業務版圖從室內空氣治理延伸至AI及數字化領域。",
+    "tl.4.year": "2024",
+    "tl.4.title": "產學研深度融合",
+    "tl.4.body": "攜手香港理工大學聯合研發 AI 大廈節能系統，正式進軍建築節能新賽道。依託核心技術優勢，實現業務版圖的跨越式擴張。",
+    "tl.5.year": "2026",
+    "tl.5.title": "突破性里程碑 · 科學園深圳分院上線",
+    "tl.5.body": "「AI綠色智慧節能大廈」系統於 2026年6月在香港科學園深圳分院成功完成安裝並正式上線運營，標誌首個商業化項目0→1的突破。集團上市計劃全面啟動，自研 Mustair 空氣淨化器項目同步推進。",
+    "tl.5.badge": "◆ 上市計劃已啟動",
+    "quote": "每一步跨越，都是對綠色未來的堅定承諾。"
+  },
+  "cn": {
     "crumb.here": "关于我们",
     "hero.eyebrow": "关于我们",
     "hero.title": "集团架构与发展历程",
     "hero.en": "About Us — Group Structure & Milestones",
     "hero.lead": "OrchardTech Greenova Group Limited 总部位于香港，通过两家全资子公司打造独特的「双引擎」增长结构。",
-
     "pos.eyebrow": "集团定位",
     "pos.title": "稳健与爆发并存的「双引擎」",
     "pos.body": "OrchardTech Greenova Group Limited 总部位于香港，通过两家全资子公司打造独特的「双引擎」增长结构——Pro-IAQ 提供稳定经常性现金流的基础业务，GP Investment 承载高毛利AI及数字化方案的未来增长，实现稳健与爆发并存的发展态势。",
     "region.title": "区位根基与全球视野",
     "region.body": "以香港为战略支点，深耕港澳及粤港澳大湾区核心市场，依托成熟的运营网络与地缘优势，稳步拓展全球业务版图，构建跨境协同的发展格局。",
-
     "mv.eyebrow": "使命与愿景",
     "mv.title": "以科技赋能绿色生态",
     "mv.mission.label": "使命",
     "mv.mission.body": "以科技赋能绿色生态，构建可持续的价值增长引擎",
     "mv.vision.label": "愿景",
     "mv.vision.body": "成为全球领先的绿色科技投资平台，引领低碳智慧未来的产业变革",
-
     "org.eyebrow": "集团组织架构",
     "org.title": "一家控股平台 · 两家全资子公司",
     "org.parent.name": "OrchardTech Greenova Group Limited",
@@ -56,7 +127,6 @@ OG.register("about", {
     "org.roles.4": "香港理工大学联合研发的统筹推进",
     "org.roles.5": "香港科学园深圳分院AI节能项目的总体协调",
     "org.roles.6": "投资者关系与上市事务管理",
-
     "tl.eyebrow": "发展里程碑",
     "tl.title": "2014 → 2026 · 从空气治理到AI绿色科技",
     "tl.1.year": "2014",
@@ -75,29 +145,25 @@ OG.register("about", {
     "tl.5.title": "突破性里程碑 · 科学园深圳分院上线",
     "tl.5.body": "「AI绿色智慧节能大厦」系统于 2026年6月在香港科学园深圳分院成功完成安装并正式上线运营，标志首个商业化项目0→1的突破。集团上市计划全面启动，自研 Mustair 空气净化器项目同步推进。",
     "tl.5.badge": "◆ 上市计划已启动",
-
     "quote": "每一步跨越，都是对绿色未来的坚定承诺。"
   },
-  en: {
+  "en": {
     "crumb.here": "About Us",
     "hero.eyebrow": "About Us",
     "hero.title": "Group Structure & Milestones",
-    "hero.en": "关于我们 — 集团架构与发展历程",
+    "hero.en": "關於我們 — 集團架構與發展歷程",
     "hero.lead": "OrchardTech Greenova Group Limited is headquartered in Hong Kong, building a unique “dual-engine” growth structure through two wholly-owned subsidiaries.",
-
     "pos.eyebrow": "Group Positioning",
     "pos.title": "A “Dual-Engine” of Stability and Breakthrough",
     "pos.body": "OrchardTech Greenova Group Limited is headquartered in Hong Kong, building a unique “dual-engine” growth structure through two wholly-owned subsidiaries — Pro-IAQ delivers stable recurring cash flow as the foundational business, while GP Investment drives future growth through high-margin AI and digital solutions, achieving both stability and breakthrough potential.",
     "region.title": "Regional Foundation & Global Vision",
     "region.body": "With Hong Kong as our strategic hub, we deeply cultivate the Hong Kong, Macau, and Greater Bay Area core markets. Leveraging our mature operational network and geographic advantages, we steadily expand our global footprint to build cross-border synergistic development.",
-
     "mv.eyebrow": "Mission & Vision",
     "mv.title": "Empowering Green Ecosystems with Technology",
     "mv.mission.label": "Mission",
     "mv.mission.body": "Empowering green ecosystems with technology to build a sustainable value growth engine",
     "mv.vision.label": "Vision",
     "mv.vision.body": "Becoming a globally leading green technology investment platform, leading the industrial transformation toward a low-carbon smart future",
-
     "org.eyebrow": "Group Structure",
     "org.title": "One Holding Platform · Two Wholly-Owned Subsidiaries",
     "org.parent.name": "OrchardTech Greenova Group Limited",
@@ -134,7 +200,6 @@ OG.register("about", {
     "org.roles.4": "Coordinating PolyU joint R&D initiatives",
     "org.roles.5": "Overall coordination of HKSTP Shenzhen Branch AI energy project",
     "org.roles.6": "Investor relations & IPO affairs management",
-
     "tl.eyebrow": "Development Milestones",
     "tl.title": "2014 → 2026 · From Air Quality to Green AI",
     "tl.1.year": "2014",
@@ -153,18 +218,21 @@ OG.register("about", {
     "tl.5.title": "Breakthrough Milestone · HKSTP Shenzhen Branch Go-Live",
     "tl.5.body": "The “AI Green Smart Energy-Saving Building” system successfully completed installation and went live at HKSTP Shenzhen Branch in June 2026, marking the first commercial deployment from 0 to 1. Group IPO plan fully initiated, with Mustair self-developed air purifier project advancing in parallel.",
     "tl.5.badge": "◆ IPO Plan Launched",
-
     "quote": "Every step forward is a firm commitment to a green future."
   }
 });
 
 OG.registerMeta({
-  zh: {
-    title: "关于我们 | OrchardTech Greenova — 集团架构与发展历程",
-    desc: "OrchardTech Greenova Group Limited 总部位于香港，通过两家全资子公司打造独特的「双引擎」增长结构——Pro-IAQ 提供稳定经常性现金流的基础业务，GP Investment 承载高毛利AI及数字化方案的未来增长。"
+  "zh": {
+    "title": "關於我們 | OrchardTech Greenova — 集團架構與發展歷程",
+    "desc": "OrchardTech Greenova Group Limited 總部位於香港，通過兩家全資子公司打造獨特的「雙引擎」增長結構——Pro-IAQ 提供穩定經常性現金流的基礎業務，GP Investment 承載高毛利AI及數字化方案的未來增長。"
   },
-  en: {
-    title: "About Us | OrchardTech Greenova — Group Structure & Milestones",
-    desc: "OrchardTech Greenova Group Limited is headquartered in Hong Kong, building a unique “dual-engine” growth structure through two wholly-owned subsidiaries — Pro-IAQ delivers stable recurring cash flow, while GP Investment drives high-margin AI growth."
+  "cn": {
+    "title": "关于我们 | OrchardTech Greenova — 集团架构与发展历程",
+    "desc": "OrchardTech Greenova Group Limited 总部位于香港，通过两家全资子公司打造独特的「双引擎」增长结构——Pro-IAQ 提供稳定经常性现金流的基础业务，GP Investment 承载高毛利AI及数字化方案的未来增长。"
+  },
+  "en": {
+    "title": "About Us | OrchardTech Greenova — Group Structure & Milestones",
+    "desc": "OrchardTech Greenova Group Limited is headquartered in Hong Kong, building a unique “dual-engine” growth structure through two wholly-owned subsidiaries — Pro-IAQ delivers stable recurring cash flow, while GP Investment drives high-margin AI growth."
   }
 });

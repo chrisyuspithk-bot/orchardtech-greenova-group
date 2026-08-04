@@ -1,11 +1,17 @@
 /* 404 page — bilingual strings rendered together (both languages on one page). */
+
 OG.register("error", {
-  zh: {
+  "zh": {
+    "err.title": "找不到此頁面",
+    "err.body": "您訪問的頁面可能已被移動、刪除，或鏈接地址有誤。",
+    "err.btn": "返回首頁"
+  },
+  "cn": {
     "err.title": "找不到此页面",
     "err.body": "您访问的页面可能已被移动、删除，或链接地址有误。",
     "err.btn": "返回首页"
   },
-  en: {
+  "en": {
     "err.title": "Page Not Found",
     "err.body": "The page you are looking for may have been moved, deleted, or the link may be incorrect.",
     "err.btn": "Back to Home"
@@ -13,6 +19,16 @@ OG.register("error", {
 });
 
 OG.registerMeta({
-  zh: { title: "404 · 找不到此页面 | OrchardTech Greenova", desc: "您访问的页面不存在。" },
-  en: { title: "404 · Page Not Found | OrchardTech Greenova", desc: "The page you requested does not exist." }
+  "zh": {
+    "title": "404 · 找不到此頁面 | OrchardTech Greenova",
+    "desc": "您訪問的頁面不存在。"
+  },
+  "cn": {
+    "title": "404 · 找不到此页面 | OrchardTech Greenova",
+    "desc": "您访问的页面不存在。"
+  },
+  "en": {
+    "title": "404 · Page Not Found | OrchardTech Greenova",
+    "desc": "The page you requested does not exist."
+  }
 });

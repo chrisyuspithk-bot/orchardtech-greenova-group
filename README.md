@@ -1,8 +1,9 @@
 # OrchardTech Greenova Group — Corporate Website
 
-A 7-page bilingual (繁體中文 default / English) static corporate website for
-**OrchardTech Greenova Group Limited**, a Hong Kong-headquartered industrial
-technology platform (subsidiaries: Pro-IAQ Limited, GP Investment Group Limited).
+A 7-page trilingual (繁體中文 default / 简体中文 / English) static corporate
+website for **OrchardTech Greenova Group Limited**, a Hong Kong-headquartered
+industrial technology platform (subsidiaries: Pro-IAQ Limited, GP Investment
+Group Limited).
 
 No build step, no framework — plain HTML + CSS + vanilla JS. Open any page over
 a static file server and it works.
@@ -63,19 +64,22 @@ Then open <http://localhost:8000/index.html>.
 ## Internationalisation
 
 - All copy is stored verbatim (from `pages/01–07` content files) in
-  `assets/js/content/*.js` as `{ zh: {…}, en: {…} }` dictionaries.
+  `assets/js/content/*.js` as `{ zh: {…}, cn: {…}, en: {…} }` dictionaries —
+  `zh` = 繁體中文 (Hong Kong conventions, converted via OpenCC with HK glyph
+  fixes), `cn` = 简体中文, `en` = English.
 - Elements opt in with `data-i18n="key"`; attributes via
   `data-i18n-attr="placeholder:key,aria-label:key"`.
-- Default locale is **zh-HK**. The header toggle switches the full page
-  (content, `<title>`, meta description, Open Graph, `hreflang`, `<html lang>`),
-  persists to `localStorage("og-locale")`, honours `?lang=zh|en`, and falls
-  back to `Accept-Language`/`navigator.language` on first visit.
+- Default locale is **zh-HK (繁體)**. The header toggle (繁 / 简 / EN) switches
+  the full page (content, `<title>`, meta description, Open Graph,
+  `<html lang>`), persists to `localStorage("og-locale")`, honours
+  `?lang=zh|cn|en`, and falls back to `navigator.language` on first visit
+  (Hans regions → 简体, other Chinese → 繁體, otherwise English).
 
 ## SEO
 
-- Per-page unique `<title>` + meta description (ZH & EN, swapped with locale).
+- Per-page unique `<title>` + meta description (繁 / 简 / EN, swapped with locale).
 - Open Graph + Twitter Card tags; canonical URLs; `hreflang` alternates
-  (`zh-HK`, `en`, `x-default`).
+  (`zh-HK`, `zh-CN`, `en`, `x-default`).
 - JSON-LD: `Organization` on home, `BreadcrumbList` on every content page,
   `FAQPage` on Investor Relations (risk factors), `ContactPoint` on Contact.
 - `sitemap.xml` + `robots.txt`; bilingual `404.html`.
@@ -109,5 +113,7 @@ rsvg-convert -w 1200 -h 630 assets/img/og-image.svg -o assets/img/og-image.png
   keyboard-navigable menu, WCAG AA contrast, `prefers-reduced-motion` respected.
 - Zero raster images / zero stock photos: all visuals are CSS gradients and
   inline SVG (org chart, flywheel, bar chart, Use-of-Proceeds bar).
-- Fonts: Google Fonts (Inter, Space Grotesk, Noto Sans TC, Source Serif 4)
-  with system fallbacks per design-guide.md §4.
+- Fonts: Google Fonts — Space Grotesk + Inter (Latin), **Noto Serif HK/SC**
+  (CJK display heads, editorial voice), **Noto Sans HK/SC** (CJK body/UI,
+  Hong Kong-correct glyph forms), Source Serif 4 italic (EN quotes);
+  system fallbacks per design-guide.md §4.

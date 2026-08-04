@@ -1,13 +1,78 @@
 /* Page 06 — 投资者关系 / Investor Relations. Copy verbatim from pages/06-investor-relations.md. */
+
 OG.register("investor", {
-  zh: {
+  "zh": {
+    "crumb.here": "投資者關係",
+    "hero.eyebrow": "投資者關係",
+    "hero.title": "上市資訊與投資價值",
+    "hero.en": "Investor Relations — IPO Information & Investment Value",
+    "hero.lead": "OrchardTech Greenova Group Limited 以「實業+科技」雙引擎驅動，構建了兼具防禦性與進攻性的投資模型。",
+    "hero.badge": "◆ 上市計劃已啟動 · 2026年7月",
+    "hl.eyebrow": "投資概要",
+    "hl.title": "核心投資價值",
+    "hl.lead": "OrchardTech Greenova Group Limited 以「實業+科技」雙引擎驅動，構建了兼具防禦性與進攻性的投資模型：",
+    "hl.1.title": "風險分散的確定性",
+    "hl.1.body": "雙業務線獨立運營、現金流互補，有效平滑行業週期波動，提供穩健且可預期的業績增長",
+    "hl.2.title": "疊加增長的想象空間",
+    "hl.2.body": "多業務線間客戶資源複用與深度交叉銷售，創造1+1>2的協同效應，解鎖指數級增長潛力",
+    "hl.3.title": "長期增長的天花板",
+    "hl.3.body": "堅持自研核心產品，融合前沿AI技術持續迭代，面向全球市場打開廣闊成長空間",
+    "km.eyebrow": "關鍵數據一覽",
+    "km.1.label": "集團成立",
+    "km.1.value": "2014",
+    "km.1.unit": "年",
+    "km.2.label": "上市計劃",
+    "km.2.value": "2026",
+    "km.2.unit": "年7月啟動",
+    "km.3.label": "子公司",
+    "km.3.value": "2",
+    "km.3.unit": "家全資控股",
+    "km.4.label": "專利",
+    "km.4.value": "12",
+    "km.4.unit": "+2",
+    "km.4.sub": "12項申請 / 2項授權",
+    "km.5.label": "戰略合作",
+    "km.5.value": "NEC · 理大",
+    "km.5.sub": "NEC（世界500強）、香港理工大學",
+    "km.6.label": "最新里程碑",
+    "km.6.value": "2026",
+    "km.6.unit": ".6",
+    "km.6.sub": "AI節能系統於香港科學園深圳分院上線",
+    "uop.eyebrow": "募集資金用途",
+    "uop.title": "Use of Proceeds",
+    "uop.lead": "募集資金按以下比例分配，聚焦自研產品量產與AI節能業務擴張。",
+    "uop.1": "自研產品量產與推廣（Mustair）",
+    "uop.2": "AI節能業務擴張",
+    "uop.3": "研發與產能升級",
+    "uop.4": "營銷與渠道建設",
+    "uop.5": "營運資金及一般企業用途",
+    "uop.total": "合計 100%",
+    "uop.table.caption": "募集資金用途明細",
+    "risk.eyebrow": "風險因素與應對",
+    "risk.title": "審慎識別 · 積極應對",
+    "risk.table.caption": "風險因素與應對措施",
+    "risk.th.risk": "風險",
+    "risk.th.mit": "應對措施",
+    "risk.1.r": "客戶集中度風險",
+    "risk.1.m": "積極拓展其他大型企業客戶，多元化佈局",
+    "risk.2.r": "新產品商業化風險",
+    "risk.2.m": "持續優化營銷策略與產品適配性",
+    "risk.3.r": "行業競爭風險",
+    "risk.3.m": "技術創新與服務升級構建競爭壁壘",
+    "risk.4.r": "技術迭代風險",
+    "risk.4.m": "持續加大研發投入，保持技術敏銳度",
+    "note": "本頁所載資料僅供參考，不構成任何證券發售或認購要約。上市計劃及相關數據以正式招股書及監管披露文件爲準。",
+    "cta.title": "獲取最新上市資訊",
+    "cta.body": "歡迎透過聯絡頁面與我們取得聯繫，索取投資者資料。",
+    "cta.btn": "聯絡我們"
+  },
+  "cn": {
     "crumb.here": "投资者关系",
     "hero.eyebrow": "投资者关系",
     "hero.title": "上市资讯与投资价值",
     "hero.en": "Investor Relations — IPO Information & Investment Value",
     "hero.lead": "OrchardTech Greenova Group Limited 以「实业+科技」双引擎驱动，构建了兼具防御性与进攻性的投资模型。",
     "hero.badge": "◆ 上市计划已启动 · 2026年7月",
-
     "hl.eyebrow": "投资概要",
     "hl.title": "核心投资价值",
     "hl.lead": "OrchardTech Greenova Group Limited 以「实业+科技」双引擎驱动，构建了兼具防御性与进攻性的投资模型：",
@@ -17,7 +82,6 @@ OG.register("investor", {
     "hl.2.body": "多业务线间客户资源复用与深度交叉销售，创造1+1>2的协同效应，解锁指数级增长潜力",
     "hl.3.title": "长期增长的天花板",
     "hl.3.body": "坚持自研核心产品，融合前沿AI技术持续迭代，面向全球市场打开广阔成长空间",
-
     "km.eyebrow": "关键数据一览",
     "km.1.label": "集团成立",
     "km.1.value": "2014",
@@ -39,7 +103,6 @@ OG.register("investor", {
     "km.6.value": "2026",
     "km.6.unit": ".6",
     "km.6.sub": "AI节能系统于香港科学园深圳分院上线",
-
     "uop.eyebrow": "募集资金用途",
     "uop.title": "Use of Proceeds",
     "uop.lead": "募集资金按以下比例分配，聚焦自研产品量产与AI节能业务扩张。",
@@ -50,7 +113,6 @@ OG.register("investor", {
     "uop.5": "营运资金及一般企业用途",
     "uop.total": "合计 100%",
     "uop.table.caption": "募集资金用途明细",
-
     "risk.eyebrow": "风险因素与应对",
     "risk.title": "审慎识别 · 积极应对",
     "risk.table.caption": "风险因素与应对措施",
@@ -64,20 +126,18 @@ OG.register("investor", {
     "risk.3.m": "技术创新与服务升级构建竞争壁垒",
     "risk.4.r": "技术迭代风险",
     "risk.4.m": "持续加大研发投入，保持技术敏锐度",
-
     "note": "本页所载资料仅供参考，不构成任何证券发售或认购要约。上市计划及相关数据以正式招股书及监管披露文件为准。",
     "cta.title": "获取最新上市资讯",
     "cta.body": "欢迎透过联络页面与我们取得联系，索取投资者资料。",
     "cta.btn": "联络我们"
   },
-  en: {
+  "en": {
     "crumb.here": "Investor Relations",
     "hero.eyebrow": "Investor Relations",
     "hero.title": "IPO Information & Investment Value",
-    "hero.en": "投资者关系 — 上市资讯与投资价值",
+    "hero.en": "投資者關係 — 上市資訊與投資價值",
     "hero.lead": "OrchardTech Greenova Group Limited is driven by the dual-engine of “industrial + technology,” building an investment model combining both defensiveness and offensiveness.",
     "hero.badge": "◆ IPO Plan Launched · July 2026",
-
     "hl.eyebrow": "Investment Highlights",
     "hl.title": "Core Investment Value",
     "hl.lead": "OrchardTech Greenova Group Limited is driven by the dual-engine of “industrial + technology,” building an investment model combining both defensiveness and offensiveness:",
@@ -87,7 +147,6 @@ OG.register("investor", {
     "hl.2.body": "Cross-client resource reuse and deep cross-selling across business lines create 1+1>2 synergy, unlocking exponential growth potential",
     "hl.3.title": "Long-Term Growth Ceiling",
     "hl.3.body": "Self-developed core products continuously iterated with cutting-edge AI, opening vast global market opportunities",
-
     "km.eyebrow": "Key Metrics at a Glance",
     "km.1.label": "Founded",
     "km.1.value": "2014",
@@ -109,7 +168,6 @@ OG.register("investor", {
     "km.6.value": "2026",
     "km.6.unit": ".6",
     "km.6.sub": "AI Energy System went live at HKSTP Shenzhen Branch",
-
     "uop.eyebrow": "Use of Proceeds",
     "uop.title": "Use of Proceeds",
     "uop.lead": "Proceeds are allocated as follows, focused on self-developed product production and AI energy-saving business expansion.",
@@ -120,7 +178,6 @@ OG.register("investor", {
     "uop.5": "Working capital & general corporate purposes",
     "uop.total": "Total 100%",
     "uop.table.caption": "Use of Proceeds Breakdown",
-
     "risk.eyebrow": "Risk Factors & Mitigation",
     "risk.title": "Prudently Identified · Actively Addressed",
     "risk.table.caption": "Risk Factors and Mitigation Measures",
@@ -134,7 +191,6 @@ OG.register("investor", {
     "risk.3.m": "Building competitive barriers through technology innovation and service upgrades",
     "risk.4.r": "Technology iteration",
     "risk.4.m": "Sustained R&D investment maintaining technology acuity",
-
     "note": "The information on this page is for reference only and does not constitute an offer to sell or a solicitation to buy any securities. The IPO plan and related figures are subject to the formal prospectus and regulatory disclosure documents.",
     "cta.title": "Get the Latest IPO Updates",
     "cta.body": "Reach out via the contact page to request investor materials.",
@@ -143,12 +199,16 @@ OG.register("investor", {
 });
 
 OG.registerMeta({
-  zh: {
-    title: "投资者关系 | OrchardTech Greenova — 上市资讯与投资价值",
-    desc: "OrchardTech Greenova Group Limited 以「实业+科技」双引擎驱动，构建了兼具防御性与进攻性的投资模型。上市计划2026年7月启动。"
+  "zh": {
+    "title": "投資者關係 | OrchardTech Greenova — 上市資訊與投資價值",
+    "desc": "OrchardTech Greenova Group Limited 以「實業+科技」雙引擎驅動，構建了兼具防禦性與進攻性的投資模型。上市計劃2026年7月啟動。"
   },
-  en: {
-    title: "Investor Relations | OrchardTech Greenova — IPO Information & Investment Value",
-    desc: "OrchardTech Greenova Group Limited is driven by the dual-engine of “industrial + technology,” building an investment model combining both defensiveness and offensiveness. IPO plan launched July 2026."
+  "cn": {
+    "title": "投资者关系 | OrchardTech Greenova — 上市资讯与投资价值",
+    "desc": "OrchardTech Greenova Group Limited 以「实业+科技」双引擎驱动，构建了兼具防御性与进攻性的投资模型。上市计划2026年7月启动。"
+  },
+  "en": {
+    "title": "Investor Relations | OrchardTech Greenova — IPO Information & Investment Value",
+    "desc": "OrchardTech Greenova Group Limited is driven by the dual-engine of “industrial + technology,” building an investment model combining both defensiveness and offensiveness. IPO plan launched July 2026."
   }
 });

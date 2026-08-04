@@ -1,12 +1,95 @@
 /* Page 03 — 业务版图 / Business Portfolio. Copy verbatim from pages/03-business-portfolio.md. */
+
 OG.register("business", {
-  zh: {
+  "zh": {
+    "crumb.here": "業務版圖",
+    "hero.eyebrow": "業務版圖",
+    "hero.title": "雙引擎協同生態",
+    "hero.en": "Business Portfolio — Dual-Engine Synergistic Ecosystem",
+    "hero.lead": "OrchardTech Greenova 通過兩大子公司構建「穩健+爆發」的業務組合。",
+    "ov.eyebrow": "業務總覽",
+    "ov.title": "穩健 + 爆發的業務組合",
+    "ov.lead": "OrchardTech Greenova 通過兩大子公司構建「穩健+爆發」的業務組合：",
+    "ov.table.caption": "Pro-IAQ 與 GP Investment 業務對比",
+    "ov.th.dim": "維度",
+    "ov.th.proiaq": "Pro-IAQ",
+    "ov.th.gp": "GP Investment",
+    "ov.r1.dim": "業務性質",
+    "ov.r1.proiaq": "室內空氣治理 + IT軟硬件貿易",
+    "ov.r1.gp": "AI研發 + 學界/企業數字化方案",
+    "ov.r2.dim": "收入模式",
+    "ov.r2.proiaq": "年費訂閱 · 穩定現金流",
+    "ov.r2.gp": "項目制 · 高毛利",
+    "ov.r3.dim": "核心客戶",
+    "ov.r3.proiaq": "商場、酒店、寫字樓、學校、醫院",
+    "ov.r3.gp": "香港學界（中小學/大專）、中小企業",
+    "ov.r4.dim": "戰略定位",
+    "ov.r4.proiaq": "集團「壓艙石」",
+    "ov.r4.gp": "集團「增長引擎」",
+    "proiaq.eyebrow": "子公司深度剖析 · 01",
+    "proiaq.title": "Pro-IAQ Limited",
+    "proiaq.sub": "室內空氣治理與IT軟硬件貿易",
+    "proiaq.lead": "以年費訂閱模式構建穩定經常性現金流，是集團穩健發展的「壓艙石」。",
+    "proiaq.u1.h": "核心業務板塊一：室內空氣治理",
+    "proiaq.u1.1": "空氣質素檢測與IAQ認證協助",
+    "proiaq.u1.2": "除甲醛、專業消毒服務",
+    "proiaq.u1.3": "空氣淨化設備銷售與租賃",
+    "proiaq.u1.4": "室內空氣改善工程",
+    "proiaq.u1.5": "AI大廈節能系統（配合Greenova母公司統籌，與香港理工大學聯合研發）",
+    "proiaq.u2.h": "核心業務板塊二：IT軟硬件貿易",
+    "proiaq.u2.1.t": "世界500強NEC深度戰略合作",
+    "proiaq.u2.1.d": "作爲NEC指定合作伙伴，提供定製化解決方案交付",
+    "proiaq.u2.2.t": "RFID全系列硬件終端銷售",
+    "proiaq.u2.2.d": "工業級超高頻讀寫器、柔性抗金屬標籤、高增益天線、智能手持終端、雲端算力集群",
+    "proiaq.u2.3.t": "企業級ERP系統定製與集成",
+    "proiaq.u2.3.d": "專爲大型製造與物流企業定製，深度融合資產全生命週期管理與供應鏈協同",
+    "proiaq.str.h": "核心優勢",
+    "proiaq.str.1": "香港環保署官方認證",
+    "proiaq.str.2": "AirProce及Luko港澳獨家代理權",
+    "proiaq.str.3": "服務網絡覆蓋商場、高端酒店、甲級寫字樓、公立學校及三甲醫院",
+    "proiaq.str.4": "物聯網平台實現設備實時監控與智能預警",
+    "proiaq.str.5": "世界500強NEC技術背書",
+    "gp.eyebrow": "子公司深度剖析 · 02",
+    "gp.title": "GP Investment Group Limited",
+    "gp.sub": "AI研發與數字化賦能",
+    "gp.lead": "聚焦香港學界與中小企業兩大核心市場，是集團高毛利的「增長引擎」。",
+    "gp.core.h": "核心業務",
+    "gp.core.1.t": "AI算力本地部署",
+    "gp.core.1.d": "爲學校及企業提供安全、合規的本地AI算力基礎設施，確保數據隱私與安全",
+    "gp.core.2.t": "RAG知識庫建立",
+    "gp.core.2.d": "基於檢索增強生成技術，爲學校及企業構建專屬知識庫，實現智能化檢索與內容生成",
+    "gp.core.3.t": "AI教學輔助方案（學界）",
+    "gp.core.3.d": "AI備課工具、智能作業批改、學情分析，提升教學效率",
+    "gp.core.4.t": "AI行政自動化（學界）",
+    "gp.core.4.d": "學生檔案管理、排課優化、家校溝通、財務處理自動化",
+    "gp.core.5.t": "企業AI應用方案（中小企）",
+    "gp.core.5.d": "覆蓋市場營銷、運營管理、客戶服務、數據分析等多元場景",
+    "gp.market.h": "目標市場",
+    "gp.market.1.t": "香港學界",
+    "gp.market.1.d": "中小學及大專院校，受惠於優質教育基金20億港元校本AI教育項目",
+    "gp.market.2.t": "香港中小企業",
+    "gp.market.2.d": "受惠於政府「數碼轉型支援先導計劃」3億港元扶持政策",
+    "gp.str.h": "核心優勢",
+    "gp.str.1": "12項核心技術專利（申請中）/ 2項已授權",
+    "gp.str.2": "精準對焦香港AI政策紅利",
+    "gp.str.3": "軟硬一體化解決方案能力",
+    "syn.eyebrow": "協同生態",
+    "syn.title": "1+1>2 的增長飛輪",
+    "syn.lead": "雙業務線客戶資源複用、技術深度融合，構成自我強化的增長閉環。",
+    "syn.1.h": "交叉銷售 · 自上而下",
+    "syn.1.body": "Pro-IAQ 服務的高端商業客戶（商場、酒店、寫字樓），天然具備AI升級與數字化需求，是GP的AI方案的優質潛在客戶",
+    "syn.2.h": "交叉銷售 · 自下而上",
+    "syn.2.body": "GP 的AI客戶（學校、中小企業），其辦公場所對空氣品質有需求，爲Pro-IAQ帶來服務訂單",
+    "syn.3.h": "技術協同",
+    "syn.3.body": "Pro-IAQ 的室內空氣傳感器與空氣淨化設備，與GP的AI算法及Greenova統籌的理大聯合研發深度融合，共同構成「AI綠色智慧節能大廈」的核心技術閉環",
+    "syn.quote": "一邊的客戶，就是另一邊產品的潛在買家。一客多買、互相賦能。"
+  },
+  "cn": {
     "crumb.here": "业务版图",
     "hero.eyebrow": "业务版图",
     "hero.title": "双引擎协同生态",
     "hero.en": "Business Portfolio — Dual-Engine Synergistic Ecosystem",
     "hero.lead": "OrchardTech Greenova 通过两大子公司构建「稳健+爆发」的业务组合。",
-
     "ov.eyebrow": "业务总览",
     "ov.title": "稳健 + 爆发的业务组合",
     "ov.lead": "OrchardTech Greenova 通过两大子公司构建「稳健+爆发」的业务组合：",
@@ -26,7 +109,6 @@ OG.register("business", {
     "ov.r4.dim": "战略定位",
     "ov.r4.proiaq": "集团「压舱石」",
     "ov.r4.gp": "集团「增长引擎」",
-
     "proiaq.eyebrow": "子公司深度剖析 · 01",
     "proiaq.title": "Pro-IAQ Limited",
     "proiaq.sub": "室内空气治理与IT软硬件贸易",
@@ -50,7 +132,6 @@ OG.register("business", {
     "proiaq.str.3": "服务网络覆盖商场、高端酒店、甲级写字楼、公立学校及三甲医院",
     "proiaq.str.4": "物联网平台实现设备实时监控与智能预警",
     "proiaq.str.5": "世界500强NEC技术背书",
-
     "gp.eyebrow": "子公司深度剖析 · 02",
     "gp.title": "GP Investment Group Limited",
     "gp.sub": "AI研发与数字化赋能",
@@ -75,7 +156,6 @@ OG.register("business", {
     "gp.str.1": "12项核心技术专利（申请中）/ 2项已授权",
     "gp.str.2": "精准对焦香港AI政策红利",
     "gp.str.3": "软硬一体化解决方案能力",
-
     "syn.eyebrow": "协同生态",
     "syn.title": "1+1>2 的增长飞轮",
     "syn.lead": "双业务线客户资源复用、技术深度融合，构成自我强化的增长闭环。",
@@ -87,13 +167,12 @@ OG.register("business", {
     "syn.3.body": "Pro-IAQ 的室内空气传感器与空气净化设备，与GP的AI算法及Greenova统筹的理大联合研发深度融合，共同构成「AI绿色智慧节能大厦」的核心技术闭环",
     "syn.quote": "一边的客户，就是另一边产品的潜在买家。一客多买、互相赋能。"
   },
-  en: {
+  "en": {
     "crumb.here": "Business Portfolio",
     "hero.eyebrow": "Business Portfolio",
     "hero.title": "Dual-Engine Synergistic Ecosystem",
-    "hero.en": "业务版图 — 双引擎协同生态",
+    "hero.en": "業務版圖 — 雙引擎協同生態",
     "hero.lead": "OrchardTech Greenova builds a “stable + high-growth” business portfolio through two subsidiaries.",
-
     "ov.eyebrow": "Business Overview",
     "ov.title": "A “Stable + High-Growth” Portfolio",
     "ov.lead": "OrchardTech Greenova builds a “stable + high-growth” business portfolio through two subsidiaries:",
@@ -113,7 +192,6 @@ OG.register("business", {
     "ov.r4.dim": "Strategic Role",
     "ov.r4.proiaq": "Group “Ballast Stone”",
     "ov.r4.gp": "Group “Growth Engine”",
-
     "proiaq.eyebrow": "Subsidiary Deep-Dive · 01",
     "proiaq.title": "Pro-IAQ Limited",
     "proiaq.sub": "IAQ & IT Hardware/Software Trading",
@@ -137,7 +215,6 @@ OG.register("business", {
     "proiaq.str.3": "Service network covering malls, hotels, Grade-A offices, public schools, and top-tier hospitals",
     "proiaq.str.4": "IoT platform enabling real-time monitoring and smart alerts",
     "proiaq.str.5": "Fortune 500 NEC technology endorsement",
-
     "gp.eyebrow": "Subsidiary Deep-Dive · 02",
     "gp.title": "GP Investment Group Limited",
     "gp.sub": "AI R&D & Digital Empowerment",
@@ -162,7 +239,6 @@ OG.register("business", {
     "gp.str.1": "12 core technology patents (filed) / 2 granted",
     "gp.str.2": "Precisely aligned with Hong Kong AI policy dividends",
     "gp.str.3": "Integrated hardware-software solution capabilities",
-
     "syn.eyebrow": "Synergistic Ecosystem",
     "syn.title": "The 1+1>2 Growth Flywheel",
     "syn.lead": "Shared client resources and deeply integrated technology form a self-reinforcing growth loop.",
@@ -177,12 +253,16 @@ OG.register("business", {
 });
 
 OG.registerMeta({
-  zh: {
-    title: "业务版图 | OrchardTech Greenova — 双引擎协同生态",
-    desc: "OrchardTech Greenova 通过两大子公司构建「稳健+爆发」的业务组合：Pro-IAQ 室内空气治理与IT软硬件贸易，GP Investment AI研发与数字化赋能。"
+  "zh": {
+    "title": "業務版圖 | OrchardTech Greenova — 雙引擎協同生態",
+    "desc": "OrchardTech Greenova 通過兩大子公司構建「穩健+爆發」的業務組合：Pro-IAQ 室內空氣治理與IT軟硬件貿易，GP Investment AI研發與數字化賦能。"
   },
-  en: {
-    title: "Business Portfolio | OrchardTech Greenova — Dual-Engine Synergistic Ecosystem",
-    desc: "OrchardTech Greenova builds a “stable + high-growth” business portfolio through two subsidiaries: Pro-IAQ (IAQ + IT trading) and GP Investment (AI R&D + digital solutions)."
+  "cn": {
+    "title": "业务版图 | OrchardTech Greenova — 双引擎协同生态",
+    "desc": "OrchardTech Greenova 通过两大子公司构建「稳健+爆发」的业务组合：Pro-IAQ 室内空气治理与IT软硬件贸易，GP Investment AI研发与数字化赋能。"
+  },
+  "en": {
+    "title": "Business Portfolio | OrchardTech Greenova — Dual-Engine Synergistic Ecosystem",
+    "desc": "OrchardTech Greenova builds a “stable + high-growth” business portfolio through two subsidiaries: Pro-IAQ (IAQ + IT trading) and GP Investment (AI R&D + digital solutions)."
   }
 });

@@ -1,12 +1,67 @@
 /* Page 05 — 研发与合作 / R&D & Partnerships. Copy verbatim from pages/05-rd-and-partnerships.md. */
+
 OG.register("rd", {
-  zh: {
+  "zh": {
+    "crumb.here": "研發與合作",
+    "hero.eyebrow": "研發與合作",
+    "hero.title": "產學研融合 · 從技術驗證到商業落地",
+    "hero.en": "R&D & Partnerships — PolyU Joint R&D · HKSTP Shenzhen Go-Live",
+    "hero.lead": "與香港理工大學聯合研發，於香港科學園深圳分院完成首個商業化落地。",
+    "polyu.eyebrow": "聯合研發",
+    "polyu.title": "香港理工大學 · 聯合研發合作協議",
+    "polyu.lead": "OrchardTech Greenova 與香港理工大學正式簽署合作協議，共同推進 「AI綠色智慧節能大廈」 系統的研發與商業化應用。集團作爲合作統籌主體，整合旗下 Pro-IAQ 的室內空氣傳感器、空氣淨化設備與室內空氣管理平台，以及 GP Investment 的AI算法能力，打造獨一無二的大廈及辦公室冷氣節能 + 空氣監測 + 自動優化系統。",
+    "polyu.core.h": "合作核心",
+    "polyu.core.1": "深度對接樓宇BA系統，建立AI動態優化模型",
+    "polyu.core.2": "精準調節冷氣輸出，實現空調能耗降低 10%-15%",
+    "polyu.core.3": "整合 Pro-IAQ 的室內空氣傳感器、空氣淨化設備與室內空氣管理平台",
+    "polyu.core.4": "打造獨一無二的大廈及辦公室冷氣節能 + 空氣監測 + 自動優化系統",
+    "polyu.formula.h": "技術融合",
+    "polyu.formula.a": "Pro-IAQ 的室內環境感知層（傳感器/淨化設備）",
+    "polyu.formula.b": "GP Investment 的AI算法層",
+    "polyu.formula.c": "香港理工大學的學術研究力量",
+    "polyu.formula.r": "全球領先的智慧節能解決方案",
+    "polyu.feat.h": "方案特點",
+    "polyu.feat.1": "高度可複製性，適用於商業樓宇、酒店、醫院、學校等多場景",
+    "polyu.feat.2": "兼具社會責任與商業回報",
+    "polyu.feat.3": "是集團高增長的強勁第二曲線",
+    "ms.eyebrow": "突破性里程碑",
+    "ms.title": "香港科學園深圳分院成功上線",
+    "ms.body": "集團與香港理工大學聯合研發的 「AI綠色智慧節能大廈」系統，已於 2026年6月在香港科學園深圳分院成功完成安裝並正式上線運營。",
+    "ms.sig.h": "項目意義",
+    "ms.sig.1.t": "0→1 的突破",
+    "ms.sig.1.d": "這是該系統首個商業化落地項目，標誌著技術方案從實驗室走向實際應用場景的關鍵跨越",
+    "ms.sig.2.t": "標杆效應",
+    "ms.sig.2.d": "香港科學園作爲粵港澳大灣區創科高地，其深圳分院的上線爲系統提供了極具說服力的示範案例",
+    "ms.sig.3.t": "技術驗證",
+    "ms.sig.3.d": "系統在實際運營環境中完成全面技術驗證，證明了方案的穩定性、可靠性與節能效果",
+    "ms.target.h": "未來一年拓展目標",
+    "ms.target.big": "6–10",
+    "ms.target.unit": "個新增落地項目",
+    "ms.target.body": "基於香港科學園深圳分院的成功經驗，集團目標在未來12個月內，爭取 新增6至10個 「AI綠色智慧節能大廈」系統落地項目，覆蓋商業樓宇、酒店、醫院、學校等多元場景，加速推動技術方案的規模化複製與市場滲透。",
+    "moat.eyebrow": "技術護城河",
+    "moat.title": "自主可控的核心技術壁壘",
+    "moat.1": "12項核心技術專利（申請中）/ 2項已授權",
+    "moat.2": "自研 Mustair 空氣淨化器（落地/掛牆/天花吊裝多功能形態）",
+    "moat.3": "AI大廈節能算法持續迭代優化",
+    "moat.4": "智能物聯與管理平台",
+    "plan.eyebrow": "研發投入計劃",
+    "plan.title": "三大研發方向",
+    "plan.table.caption": "研發投入計劃",
+    "plan.th.area": "方向",
+    "plan.th.content": "內容",
+    "plan.r1.area": "AI大廈節能算法",
+    "plan.r1.content": "基於實時能耗監測與環境感知，持續迭代算法模型，優化暖通、照明等設備運行策略",
+    "plan.r2.area": "Mustair智慧產品線",
+    "plan.r2.content": "完善空氣處理與環境控制產品矩陣，推出多型號智能設備",
+    "plan.r3.area": "智能物聯與管理平台",
+    "plan.r3.content": "持續升級物聯網管理中台，提升系統兼容性與數據處理能力"
+  },
+  "cn": {
     "crumb.here": "研发与合作",
     "hero.eyebrow": "研发与合作",
     "hero.title": "产学研融合 · 从技术验证到商业落地",
     "hero.en": "R&D & Partnerships — PolyU Joint R&D · HKSTP Shenzhen Go-Live",
     "hero.lead": "与香港理工大学联合研发，于香港科学园深圳分院完成首个商业化落地。",
-
     "polyu.eyebrow": "联合研发",
     "polyu.title": "香港理工大学 · 联合研发合作协议",
     "polyu.lead": "OrchardTech Greenova 与香港理工大学正式签署合作协议，共同推进 「AI绿色智慧节能大厦」 系统的研发与商业化应用。集团作为合作统筹主体，整合旗下 Pro-IAQ 的室内空气传感器、空气净化设备与室内空气管理平台，以及 GP Investment 的AI算法能力，打造独一无二的大厦及办公室冷气节能 + 空气监测 + 自动优化系统。",
@@ -24,7 +79,6 @@ OG.register("rd", {
     "polyu.feat.1": "高度可复制性，适用于商业楼宇、酒店、医院、学校等多场景",
     "polyu.feat.2": "兼具社会责任与商业回报",
     "polyu.feat.3": "是集团高增长的强劲第二曲线",
-
     "ms.eyebrow": "突破性里程碑",
     "ms.title": "香港科学园深圳分院成功上线",
     "ms.body": "集团与香港理工大学联合研发的 「AI绿色智慧节能大厦」系统，已于 2026年6月在香港科学园深圳分院成功完成安装并正式上线运营。",
@@ -39,14 +93,12 @@ OG.register("rd", {
     "ms.target.big": "6–10",
     "ms.target.unit": "个新增落地项目",
     "ms.target.body": "基于香港科学园深圳分院的成功经验，集团目标在未来12个月内，争取 新增6至10个 「AI绿色智慧节能大厦」系统落地项目，覆盖商业楼宇、酒店、医院、学校等多元场景，加速推动技术方案的规模化复制与市场渗透。",
-
     "moat.eyebrow": "技术护城河",
     "moat.title": "自主可控的核心技术壁垒",
     "moat.1": "12项核心技术专利（申请中）/ 2项已授权",
     "moat.2": "自研 Mustair 空气净化器（落地/挂墙/天花吊装多功能形态）",
     "moat.3": "AI大厦节能算法持续迭代优化",
     "moat.4": "智能物联与管理平台",
-
     "plan.eyebrow": "研发投入计划",
     "plan.title": "三大研发方向",
     "plan.table.caption": "研发投入计划",
@@ -59,13 +111,12 @@ OG.register("rd", {
     "plan.r3.area": "智能物联与管理平台",
     "plan.r3.content": "持续升级物联网管理中台，提升系统兼容性与数据处理能力"
   },
-  en: {
+  "en": {
     "crumb.here": "R&D & Partnerships",
     "hero.eyebrow": "R&D & Partnerships",
     "hero.title": "Industry-Academia Fusion · From Validation to Deployment",
-    "hero.en": "研发与合作 — 香港理工大学联合研发 · 科学园深圳分院上线",
+    "hero.en": "研發與合作 — 香港理工大學聯合研發 · 科學園深圳分院上線",
     "hero.lead": "Joint R&D with Hong Kong Polytechnic University, with the first commercial deployment at HKSTP Shenzhen Branch.",
-
     "polyu.eyebrow": "Joint R&D",
     "polyu.title": "Hong Kong Polytechnic University · Joint R&D Agreement",
     "polyu.lead": "OrchardTech Greenova has formally signed a cooperation agreement with Hong Kong Polytechnic University to jointly advance the R&D and commercialization of the “AI Green Smart Energy-Saving Building” system. As the coordinating entity of the collaboration, the Group integrates Pro-IAQ’s indoor air sensors, purification equipment, and IAQ management platform, along with GP Investment’s AI algorithm capabilities, to create a unique building and office system combining cooling energy savings, air monitoring, and automatic optimization.",
@@ -83,7 +134,6 @@ OG.register("rd", {
     "polyu.feat.1": "Highly replicable across commercial buildings, hotels, hospitals, schools, and more",
     "polyu.feat.2": "Combines social responsibility with commercial returns",
     "polyu.feat.3": "A powerful second growth curve for the Group",
-
     "ms.eyebrow": "Breakthrough Milestone",
     "ms.title": "HKSTP Shenzhen Branch Successfully Go-Live",
     "ms.body": "The “AI Green Smart Energy-Saving Building” system, jointly developed by OrchardTech Greenova and Hong Kong Polytechnic University, successfully completed installation and went live at Hong Kong Science and Technology Parks Corporation (HKSTP) Shenzhen Branch in June 2026.",
@@ -98,14 +148,12 @@ OG.register("rd", {
     "ms.target.big": "6–10",
     "ms.target.unit": "new deployment projects",
     "ms.target.body": "Building on the success at HKSTP Shenzhen Branch, the Group aims to secure an additional 6 to 10 “AI Green Smart Energy-Saving Building” system deployment projects within the next 12 months, covering commercial buildings, hotels, hospitals, schools, and other diverse scenarios — accelerating the scalable replication and market penetration of the solution.",
-
     "moat.eyebrow": "Technology Moat",
     "moat.title": "Proprietary, Self-Controlled Technology Barriers",
     "moat.1": "12 core technology patents (filed) / 2 granted",
     "moat.2": "Self-developed Mustair air purifier (floor/wall/ceiling multi-format)",
     "moat.3": "Continuous iteration of AI building energy algorithms",
     "moat.4": "Smart IoT management platform",
-
     "plan.eyebrow": "R&D Investment Plan",
     "plan.title": "Three R&D Directions",
     "plan.table.caption": "R&D Investment Plan",
@@ -121,12 +169,16 @@ OG.register("rd", {
 });
 
 OG.registerMeta({
-  zh: {
-    title: "研发与合作 | OrchardTech Greenova — 香港理工大学AI绿色智慧节能大厦 · 科学园深圳分院上线",
-    desc: "OrchardTech Greenova 与香港理工大学正式签署合作协议，共同推进「AI绿色智慧节能大厦」系统的研发与商业化应用，2026年6月于香港科学园深圳分院成功上线。"
+  "zh": {
+    "title": "研發與合作 | OrchardTech Greenova — 香港理工大學AI綠色智慧節能大廈 · 科學園深圳分院上線",
+    "desc": "OrchardTech Greenova 與香港理工大學正式簽署合作協議，共同推進「AI綠色智慧節能大廈」系統的研發與商業化應用，2026年6月於香港科學園深圳分院成功上線。"
   },
-  en: {
-    title: "R&D & Partnerships | OrchardTech Greenova — PolyU AI Green Smart Building · HKSTP Shenzhen Branch Go-Live",
-    desc: "OrchardTech Greenova has signed a cooperation agreement with Hong Kong Polytechnic University to jointly advance the “AI Green Smart Energy-Saving Building” system, live at HKSTP Shenzhen Branch since June 2026."
+  "cn": {
+    "title": "研发与合作 | OrchardTech Greenova — 香港理工大学AI绿色智慧节能大厦 · 科学园深圳分院上线",
+    "desc": "OrchardTech Greenova 与香港理工大学正式签署合作协议，共同推进「AI绿色智慧节能大厦」系统的研发与商业化应用，2026年6月于香港科学园深圳分院成功上线。"
+  },
+  "en": {
+    "title": "R&D & Partnerships | OrchardTech Greenova — PolyU AI Green Smart Building · HKSTP Shenzhen Branch Go-Live",
+    "desc": "OrchardTech Greenova has signed a cooperation agreement with Hong Kong Polytechnic University to jointly advance the “AI Green Smart Energy-Saving Building” system, live at HKSTP Shenzhen Branch since June 2026."
   }
 });

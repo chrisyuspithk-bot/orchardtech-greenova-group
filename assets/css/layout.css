@@ -190,7 +190,7 @@ body.menu-open .mobile-menu { transform: none; visibility: visible; transition-d
   color: #F6F9F7;
   border-bottom: 1px solid rgba(255, 255, 255, .08);
 }
-html[lang="zh-HK"] .mobile-menu a { font-family: var(--font-zh); }
+html[lang^="zh"] .mobile-menu a { font-family: var(--font-zh); }
 .mobile-menu a .idx {
   font-family: var(--font-display);
   font-size: var(--text-xs);
@@ -248,7 +248,7 @@ html[lang="zh-HK"] .mobile-menu a { font-family: var(--font-zh); }
   color: #7FA195;
   margin-bottom: 20px;
 }
-html[lang="zh-HK"] .site-footer h2 { letter-spacing: .06em; }
+html[lang^="zh"] .site-footer h2 { letter-spacing: .06em; }
 .site-footer ul { display: flex; flex-direction: column; gap: 12px; }
 .site-footer ul a, .site-footer li {
   font-size: var(--text-sm);

@@ -1,13 +1,34 @@
 /* Page 04 — 核心优势 / Core Advantages. Copy verbatim from pages/04-core-advantages.md
    (EN advantage 02 uses the rendering fix noted in the source: "unreplicable"). */
+
 OG.register("advantages", {
-  zh: {
+  "zh": {
+    "crumb.here": "核心優勢",
+    "hero.eyebrow": "核心優勢",
+    "hero.title": "雙引擎驅動與風險對沖",
+    "hero.en": "Core Advantages — Dual-Engine Risk Hedging",
+    "hero.lead": "五大核心優勢，構成兼具防禦性與進攻性的投資模型。",
+    "adv.eyebrow": "五大核心優勢",
+    "adv.title": "爲什麼是 OrchardTech Greenova",
+    "adv.1.title": "雙業務風險對沖",
+    "adv.1.body": "Pro-IAQ 提供穩定年費模式的經常性收入（空氣治理年費訂閱 + IT硬件維保續約），回款週期短、現金流健康；GP Investment 依託AI技術壁壘實現高毛利增長。兩大業務現金流完全獨立、互補共生，形成「穩健+爆發」的組合優勢，抗風險能力顯著優於同業單一業務型公司。",
+    "adv.2.title": "世界500強技術認證",
+    "adv.2.body": "Pro-IAQ 與NEC達成長期深度戰略合作。作爲世界500強科技巨頭的指定合作伙伴，NEC的選擇是對我們技術架構、研發能力與交付質量的最高認可，構築了難以複製的技術壁壘與品牌信任度。",
+    "adv.3.title": "交叉銷售協同增長",
+    "adv.3.body": "客戶群高度互補，形成「一客多買、互相導流」的增長飛輪。持續降低邊際獲客成本，最大化挖掘單客戶的全生命週期價值與增長潛力。",
+    "adv.4.title": "第二增長曲線",
+    "adv.4.body": "自研 Mustair 空氣淨化器與 AI 綠色智慧節能大廈系統（香港科學園深圳分院已成功上線）潛力巨大。技術輸出模式打破地域限制，打開全球市場的廣闊空間。",
+    "adv.5.title": "經常性收入保障",
+    "adv.5.body": "核心業務採用年費訂閱模式，提供穩定、可預測的現金流。構成集團穩健發展的堅實「壓艙石」，在市場波動期發揮穩定器作用。",
+    "tagline": "「收入有底、增長有彈性、風險有對沖」—— 兼具防禦性與進攻性的投資模型",
+    "tagline.btn": "投資者關係"
+  },
+  "cn": {
     "crumb.here": "核心优势",
     "hero.eyebrow": "核心优势",
     "hero.title": "双引擎驱动与风险对冲",
     "hero.en": "Core Advantages — Dual-Engine Risk Hedging",
     "hero.lead": "五大核心优势，构成兼具防御性与进攻性的投资模型。",
-
     "adv.eyebrow": "五大核心优势",
     "adv.title": "为什么是 OrchardTech Greenova",
     "adv.1.title": "双业务风险对冲",
@@ -20,17 +41,15 @@ OG.register("advantages", {
     "adv.4.body": "自研 Mustair 空气净化器与 AI 绿色智慧节能大厦系统（香港科学园深圳分院已成功上线）潜力巨大。技术输出模式打破地域限制，打开全球市场的广阔空间。",
     "adv.5.title": "经常性收入保障",
     "adv.5.body": "核心业务采用年费订阅模式，提供稳定、可预测的现金流。构成集团稳健发展的坚实「压舱石」，在市场波动期发挥稳定器作用。",
-
     "tagline": "「收入有底、增长有弹性、风险有对冲」—— 兼具防御性与进攻性的投资模型",
     "tagline.btn": "投资者关系"
   },
-  en: {
+  "en": {
     "crumb.here": "Core Advantages",
     "hero.eyebrow": "Core Advantages",
     "hero.title": "Dual-Engine Risk Hedging",
-    "hero.en": "核心优势 — 双引擎驱动与风险对冲",
+    "hero.en": "核心優勢 — 雙引擎驅動與風險對沖",
     "hero.lead": "Five core advantages forming an investment model combining both defensiveness and offensiveness.",
-
     "adv.eyebrow": "Five Core Advantages",
     "adv.title": "Why OrchardTech Greenova",
     "adv.1.title": "Dual-Business Risk Hedging",
@@ -43,19 +62,22 @@ OG.register("advantages", {
     "adv.4.body": "Self-developed Mustair air purifier and AI Green Smart Energy-Saving Building system (successfully deployed at HKSTP Shenzhen Branch) show tremendous potential. Technology export models break geographical boundaries, opening vast global market opportunities.",
     "adv.5.title": "Recurring Revenue Security",
     "adv.5.body": "Core business adopts annual subscription models, providing stable and predictable cash flow. This serves as the Group’s solid “ballast stone,” stabilizing operations during market fluctuations.",
-
     "tagline": "“Guaranteed revenue floor, elastic growth, hedged risks” — an investment model combining both defensiveness and offensiveness",
     "tagline.btn": "Investor Relations"
   }
 });
 
 OG.registerMeta({
-  zh: {
-    title: "核心优势 | OrchardTech Greenova — 双引擎驱动与风险对冲",
-    desc: "五大核心优势：双业务风险对冲、世界500强技术认证、交叉销售协同增长、第二增长曲线、经常性收入保障。"
+  "zh": {
+    "title": "核心優勢 | OrchardTech Greenova — 雙引擎驅動與風險對沖",
+    "desc": "五大核心優勢：雙業務風險對沖、世界500強技術認證、交叉銷售協同增長、第二增長曲線、經常性收入保障。"
   },
-  en: {
-    title: "Core Advantages | OrchardTech Greenova — Dual-Engine Risk Hedging",
-    desc: "Five core advantages: dual-business risk hedging, Fortune 500 technology certification, cross-selling synergistic growth, second growth curve, and recurring revenue security."
+  "cn": {
+    "title": "核心优势 | OrchardTech Greenova — 双引擎驱动与风险对冲",
+    "desc": "五大核心优势：双业务风险对冲、世界500强技术认证、交叉销售协同增长、第二增长曲线、经常性收入保障。"
+  },
+  "en": {
+    "title": "Core Advantages | OrchardTech Greenova — Dual-Engine Risk Hedging",
+    "desc": "Five core advantages: dual-business risk hedging, Fortune 500 technology certification, cross-selling synergistic growth, second growth curve, and recurring revenue security."
   }
 });
