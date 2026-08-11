@@ -13,7 +13,8 @@
   align-items: stretch;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, 0) 28%),
-    linear-gradient(160deg, #F7FAF8 0%, #E9F1EC 55%, #DCEAE2 100%);
+    linear-gradient(160deg, #F7FAF8 0%, #E9F1EC 55%, #DCEAE2 100%),
+    url("../img/hero-bg.jpg") center / cover no-repeat;
   overflow: hidden;
 }
 /* Editorial column rules — quiet consulting-grid rhythm, not graph paper */
