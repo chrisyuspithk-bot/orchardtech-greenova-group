@@ -175,8 +175,9 @@ html[lang^="zh"] .hero__trust .label { letter-spacing: .06em; }
   position: relative;
   padding: 168px 0 clamp(56px, 7vw, 88px);
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, .5), rgba(255, 255, 255, 0) 30%),
-    linear-gradient(160deg, #F7FAF8 0%, #E9F1EC 55%, #DCEAE2 100%);
+    linear-gradient(180deg, rgba(255, 255, 255, .25), rgba(255, 255, 255, 0) 30%),
+    linear-gradient(160deg, rgba(247, 250, 248, .82) 0%, rgba(233, 241, 236, .75) 55%, rgba(220, 234, 226, .7) 100%),
+    url("../img/hero-bg.jpg") center / cover no-repeat;
   border-bottom: 1px solid var(--line);
   overflow: hidden;
 }
