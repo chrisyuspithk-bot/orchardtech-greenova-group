@@ -743,6 +743,17 @@ html[lang^="zh"] .orgchart__col h5 { letter-spacing: .04em; }
   border: 1px solid var(--line);
 }
 
+/* ---------- Content images ---------- */
+.content-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  object-fit: cover;
+}
+.content-img--shadow { box-shadow: 0 8px 32px rgba(0,0,0,.08); }
+.content-img--bordered { border: 1px solid var(--line); }
+
 /* ---------- Responsive component tweaks ---------- */
 @media (max-width: 1023px) {
   .stat-grid { grid-template-columns: repeat(2, 1fr); }

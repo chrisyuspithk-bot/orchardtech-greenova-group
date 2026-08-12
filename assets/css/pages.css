@@ -17,13 +17,8 @@
     url("../img/hero-bg.jpg") center / cover no-repeat;
   overflow: hidden;
 }
-/* Editorial column rules — quiet consulting-grid rhythm, not graph paper */
-.hero__grid-lines {
-  position: absolute; inset: 0;
-  background-image: linear-gradient(90deg, rgba(12, 74, 60, .055) 1px, transparent 1px);
-  background-size: calc(100% / 6) 100%;
-  pointer-events: none;
-}
+/* Editorial column rules — hidden (grid removed) */
+.hero__grid-lines { display: none; }
 /* Ghost brand watermark anchored to the title zone */
 .hero::before {
   content: "";
@@ -181,12 +176,7 @@ html[lang^="zh"] .hero__trust .label { letter-spacing: .06em; }
   border-bottom: 1px solid var(--line);
   overflow: hidden;
 }
-.page-hero::before {
-  content: "";
-  position: absolute; inset: 0;
-  background-image: linear-gradient(90deg, rgba(12, 74, 60, .05) 1px, transparent 1px);
-  background-size: calc(100% / 6) 100%;
-}
+.page-hero::before { display: none; }
 .page-hero::after {
   content: "";
   position: absolute;
