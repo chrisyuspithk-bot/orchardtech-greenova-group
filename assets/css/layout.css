@@ -30,7 +30,7 @@
   gap: 12px;
   flex: none;
 }
-.brand img { width: 56px; height: 49px; }
+.brand img { width: 268px; height: 234px; }
 .brand__name {
   font-family: var(--font-display);
   font-weight: 700;
