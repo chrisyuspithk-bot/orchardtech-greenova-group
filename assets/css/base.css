@@ -82,7 +82,7 @@
 * { margin: 0; }
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 96px;
+  scroll-padding-top: 164px;
   -webkit-text-size-adjust: 100%;
 }
 body {
